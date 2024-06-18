@@ -5,7 +5,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import { FaBars, FaTimes} from 'react-icons/fa'
 import {Badge, Button, Grid, Link} from "@mui/material";
 import './NavBar.css';
-import ICON from "../images/ICON.png";
+import ICON from "../assets/images/ICON.png";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 import InstagramIcon from "@mui/icons-material/Instagram";
