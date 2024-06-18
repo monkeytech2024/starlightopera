@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import {Stack, Button, Container, Grid} from "@mui/material";
-import ContactBar from './ContactBar'
+import ContactBar from '../../components/ContactBar'
 import {} from "@mui/material";
 import {makeStyles} from "@mui/styles";
 import CircleIcon from '@mui/icons-material/Circle';

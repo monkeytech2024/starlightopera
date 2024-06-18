@@ -3,13 +3,15 @@ import {CssBaseline} from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
 import Navbar from './components/NavBar';
-import Home from './components/Home';
+import Home from './pages/home/Home';
 //import Aboutus from './components/Aboutus';
 //import Prevact from './components/Prevact';
 //import Gallery from './components/Gallery';
-//import Collection from './components/Collection';
+import Collection from './pages/collections/collections';
 //import Contactus from './components/Contactus';
 import Footer from "./components/Footer";
+
+
 
 
 const theme = createTheme({
@@ -64,7 +66,7 @@ useEffect(()=>
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
-      <Home />
+      <Collection />
       <Footer/>
       </ThemeProvider>
     </>

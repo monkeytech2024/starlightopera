@@ -7,6 +7,7 @@ import {Badge, Button, Grid, Link} from "@mui/material";
 import './NavBar.css';
 import ICON from "../assets/images/ICON.png";
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { createTheme, ThemeProvider, useTheme } from '@mui/material/styles';
 
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -14,7 +15,11 @@ import PhoneIcon from '@mui/icons-material/Phone';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 
+import { useTranslation} from "react-i18next";
+
+
 function Navbar() {
+    const [t, i18n] = useTranslation("global");
     const [nav, setNav] = useState(false)
     const [slide, setSlide] = useState(false)
     const [navbar, setNavbar] = useState(false);
@@ -77,7 +82,7 @@ function Navbar() {
     ':hover': {
       color: '#6aa4e6',
       transform: 'scale(1.25)',
-    }, fontSize: 18  }}><strong>Home</strong></Button></li>
+    }, fontSize: 18  }}><strong>{t("Navbar.home")}</strong></Button></li>
                 <li><Button underline="none" component="button"  onClick={(evt) => handleClick(evt, "#aboutme")} className="NavButton" sx={{color: '#f5f5f5',  transition: "0.4s",
     ':hover': {
       color: '#6aa4e6',
