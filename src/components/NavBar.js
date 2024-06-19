@@ -55,30 +55,29 @@ export default function Navbar() {
         <Grid container alignItems="center" justifyContent="space-evenly">
           <Grid item md={3}>
             <Grid container justifyContent="space-evenly">
-            <Button  underline="none" component="button"  onClick={(evt) => handleClick(evt, "#home")} className="NavButton" sx={{ typography: "h6", textTransform: 'none', color: '#000000',  
-    fontSize: {md: 20, xs:20}  }}>
+
 <img width={50} height={50} class="ICON"  alt="Starlight Chinese Opera" src={ICON}></img>
-      Starlight Chinese Opera</Button>
+
+      <Stack spacing="0px" display="column">
+      <Typography  sx={{fontSize: 24 }}>寶新聲戲曲演藝中心</Typography>
+      <Typography sx={{fontSize: 12 }}>Starlight Chinese Opera Performing Art Centre</Typography>
+        </Stack>
             </Grid>
           </Grid>
           <Grid item md={8} sx={{ display: { xs: 'none', md: 'flex' } }}>
-            <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={{ xs: 4 }}>
+            <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={{ xs: 2 }}>
               <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#home")} sx={{ fontSize: 14}}>Home</Link>
               <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#about")} sx={{ typography: "h6", fontSize: 14 }}>About Us</Link>
               <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#profile")} sx={{ typography: "h6", fontSize: 14 }}>News</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#project")} sx={{ typography: "h6", fontSize: 14 }}>Previous Events</Link>
+              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#project")} sx={{ typography: "h6", fontSize: 14 }}>Previous Performances and Activities</Link>
               <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#home")} sx={{ typography: "h6", fontSize: 14 }}>Gallery</Link>
               <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#about")} sx={{ typography: "h6", fontSize: 14 }}>Collections</Link>
               <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#profile")} sx={{ typography: "h6", fontSize: 14 }}>Contact and Support</Link>
             </Stack>
           </Grid>
           <Grid item md={1} sx={{ display: { xs: 'none', md: 'flex' } }}>
-          <Button variant="contained"   size="large"onClick={(evt) => handleClick(evt, "#aboutme")}  sx={{color: '#4484b2', bgcolor: '#f5f5f5', transition: "0.4s",
-    ':hover': {
-      bgcolor: '#4484b2',
-      color: '#f5f5f5',
-      transform: 'scale(1.1)',
-    }, borderRadius: "20px", fontSize: 14 }}>繁體中文</Button>
+          <Button variant="contained"   size="large"onClick={(evt) => handleClick(evt, "#aboutme")}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
+     borderRadius: "20px", fontSize: 14 }}>繁體中文</Button>
           </Grid>
         </Grid>
       </Toolbar>
