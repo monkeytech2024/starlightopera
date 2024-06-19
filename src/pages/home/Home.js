@@ -37,42 +37,23 @@ function Home() {
       justifyContent="space-between"
       sx={{
         minHeight: "100vh",
-        color: "white",
+        color: "black",
 
-
+        background: 
+        {
+          xs: "black",
+          md: "black",
+          lg: "black"
+        },
         
         backgroundRepeat: "no-repeat",
         backgroundSize: "100%",
         
       }}
     >
-      <Grid item />
-      <Grid item>
-        <Container>
-          <Grid container justifyContent={{ xs: "center", md: "flex-end" }}>
-            <Grid item sx={{ pb: { xs: 0, md: 15 } }}>
-              
-            </Grid>
-          </Grid>
-        </Container>
-      </Grid>
-      <Grid item  sx={{ pb: 4, pl: { xs: 0, md: 7 } }}> 
 
-      <Stack direction={{ xs: 'column', md: 'row' }} marginTop={5} spacing={{ xs: 5 }}>        <Stack justifyContent="center" direction='row' spacing={{ xs: 2 }}> 
-      <CircleIcon sx={{ color: "#FF0000"}}/><CircleIcon sx={{ color: "#FFFFFF"}}/><CircleIcon sx={{ color: "#FFFFFF"}}/><CircleIcon sx={{ color: "#FFFFFF"}}/><CircleIcon sx={{ color: "#FFFFFF"}}/>
 
-        </Stack>
-         <Grid container sx={{ display: { xs: 'center', md: 'flex' } }} justifyContent={{ xs: "center", md: "flex-start" }}>
-          <ContactBar />
-          
-        </Grid>
-
-      <Grid container   justifyContent={{ xs: "center", md: "flex-end" }}>
-          </Grid>
-
-          
-       </Stack>
-      </Grid>
+ 
     </Grid>
     )
 }

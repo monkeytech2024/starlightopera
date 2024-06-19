@@ -34,6 +34,7 @@ const theme = createTheme({
     },
     h6: {
       fontWeight: 700,
+      color: "#FFFFFF"
     },
     h7: {
       fontWeight: 700,
@@ -43,11 +44,13 @@ const theme = createTheme({
     }
   },
   palette: {
-    primary: {
-      main: "#faf9f7"
+    background:
+    {
+      main: "#F2E7E7",
+      navbar: "#F5F5F5"
     },
-    secondary: {
-      main: "#6aa4e6"
+    primary: {
+      black: "#0F0F0F",
     },
     mode: "light",
     action: {
@@ -66,7 +69,7 @@ useEffect(()=>
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
-      <Collection />
+      <Home />
       <Footer/>
       </ThemeProvider>
     </>
