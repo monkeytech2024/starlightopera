@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Grid} from "@mui/material";
+import {Stack, Grid,Typography} from "@mui/material";
 
 import {} from "@mui/material";
 
@@ -8,7 +8,7 @@ import {} from "@mui/material";
 
 
 
-function Contactandsupport () {
+function Contactus () {
 
     return (
     <Grid
@@ -34,4 +34,4 @@ function Contactandsupport () {
     )
 }
 
-export default Contactandsupport
+export default Contactus

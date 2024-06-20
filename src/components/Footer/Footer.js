@@ -22,8 +22,8 @@ export default function Copyright() {
       backgroundPosition: { xs:"20%", md: "center" }
     }}
   >
-    <Grid item xs={2}></Grid>
-     <Grid container item xs={4} direction="column" justifyContent="space-evenly">
+    <Grid item xs={1.5}></Grid>
+     <Grid container item xs={4.5} direction="column" justifyContent="space-evenly">
       <Grid item xs={1}></Grid>
     <Grid item xs={2}><Stack direction="row" justifyContent="flex-start"><Typography variant="h4" color="#000000" > Contact Us </Typography></Stack></Grid>
     <Grid item xs={1}><Stack direction="row" justifyContent="flex-start"><Typography variant="h7" color="#000000" ><LocalPhoneOutlinedIcon fontSize='small'/> &nbsp;&nbsp;+1 (647) 887 1393 </Typography></Stack></Grid>
@@ -32,7 +32,7 @@ export default function Copyright() {
     <Grid item xs={3}></Grid>
     <Grid item xs={3}><Stack direction="row" justifyContent="flex-start"><ContactBar /></Stack></Grid>
   </Grid>
-  <Grid container item xs={4} direction="column" justifyContent="space-evenly">
+  <Grid container item xs={4.5} direction="column" justifyContent="space-evenly">
   <Grid item xs={1}></Grid>
   <Grid item xs={5}><Stack direction="row" justifyContent="flex-end"><img width={100} height={100} class="ICON"  alt="Starlight Chinese Opera" src={ICON}></img></Stack></Grid>
   <Grid item xs={3}></Grid>
@@ -46,7 +46,7 @@ export default function Copyright() {
   </Grid>
 
 
-  <Grid item xs={2}></Grid>
+  <Grid item xs={1.5}></Grid>
     </Grid>
   );
 }

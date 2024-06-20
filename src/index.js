@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import global_en from './assets/languages/EN/global.json';
 import global_cn from './assets/languages/CN/global.json';
 import i18next from "i18next";
+import { BrowserRouter } from 'react-router-dom';
 
 i18next.init({
   interpolation: {escapeValue : false},
@@ -20,7 +21,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <i18nextProvider i18n={i18next}>
+      <BrowserRouter>
     <App />
+    </BrowserRouter>
     </i18nextProvider>
   </React.StrictMode>
 );

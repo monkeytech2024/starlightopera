@@ -1,7 +1,6 @@
 import React from 'react'
 
-import {Grid} from "@mui/material";
-
+import {Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
 
 
@@ -27,7 +26,7 @@ function Prevact() {
         
       }}
     >
-<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Prvious Performances and Activities Page</Typography></Stack>
+<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Previous Performances and Activities Page</Typography></Stack>
 
  
     </Grid>

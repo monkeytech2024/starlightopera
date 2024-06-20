@@ -1,6 +1,5 @@
 import React from 'react'
-
-import {Grid} from "@mui/material";
+import {Stack, Grid,Typography} from "@mui/material";
 
 import {} from "@mui/material";
 
@@ -34,4 +33,4 @@ function Aboutus() {
     )
 }
 
-export default AboutUs
+export default Aboutus

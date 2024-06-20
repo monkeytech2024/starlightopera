@@ -1,16 +1,20 @@
 import React, { useEffect } from 'react';
 import {CssBaseline} from '@mui/material';
+import {Route, Routes} from 'react-router';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
 import Navbar from './components/NavBar/NavBar';
 import Home  from './pages/home/home';
-//import Aboutus from './components/Aboutus';
-//import Prevact from './components/Prevact';
-//import Gallery from './components/Gallery';
-import Collection from './pages/Collections/Collections';
-import News from './pages/news/News';
+import Aboutus  from './pages/Aboutus/Aboutus';
+import News  from './pages/News/News';
+import Prevact  from './pages/Prevact/Prevact';
+import Gallery  from './pages/Gallery/Gallery';
+import Collections  from './pages/Collections/Collections';
+import Contactus from './pages/Contactus/Contactus';
+
 import Footer from "./components/Footer/Footer";
 import './App.css';
+
 
 
 
@@ -70,7 +74,16 @@ useEffect(()=>
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
-      <News />
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/home" element={<Home/>}></Route>
+        <Route path="/aboutus" element={<Aboutus/>}></Route>
+        <Route path="/news" element={<News/>}></Route>
+        <Route path="/prevact" element={<Prevact/>}></Route>
+        <Route path="/gallery" element={<Gallery/>}></Route>
+        <Route path="/collections" element={<Collections/>}></Route>
+        <Route path="/contactus" element={<Contactus/>}></Route>
+        </Routes>
       <Footer/>
       </ThemeProvider>
     </>

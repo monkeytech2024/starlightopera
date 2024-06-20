@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import {Badge, Button, Grid, Link} from "@mui/material";
+import {Badge, Button, Grid} from "@mui/material";
 import ICON from "../../assets/images/ICON.png";
 
 import AppBar from '@mui/material/AppBar';
@@ -8,8 +8,14 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Box, Divider, IconButton, Menu, MenuItem, Stack} from "@mui/material";
+import StyledLink from '../StyledLink/StyledLink'; 
+import { BiUnderline } from 'react-icons/bi';
+
+
 
 export default function Navbar() {
+
+  
 
 
 
@@ -53,13 +59,13 @@ export default function Navbar() {
           </Grid>
           <Grid item md={6}justifyContent="space-evenly" sx={{ display: { xs: 'none', md: 'flex' } }}>
             <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={{ xs: 2 }}>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#home")} sx={{typography: "h6", fontSize: 16}}>Home</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#about")} sx={{ typography: "h6", fontSize: 16 }}>About Us</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#profile")} sx={{ typography: "h6", fontSize: 16 }}>News</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#project")} sx={{ typography: "h6", fontSize: 16 }}>Previous Performances and Activities</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#home")} sx={{ typography: "h6", fontSize: 16 }}>Gallery</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#about")} sx={{ typography: "h6", fontSize: 16 }}>Collections</Link>
-              <Link color="primary.black" underline="none" component="button" onClick={(evt) => handleClick(evt, "#profile")} sx={{ typography: "h6", fontSize: 16 }}>Contact and Support</Link>
+              <StyledLink to ='/home'>Home</StyledLink>
+              <StyledLink to ='/aboutus'>About Us</StyledLink>
+              <StyledLink to ='/news'>News</StyledLink>
+              <StyledLink to ='/prevact'>Previous Performances and Activities</StyledLink>
+              <StyledLink to ='/gallery'>Gallery</StyledLink>
+              <StyledLink to ='/collections'>Collections</StyledLink>
+              <StyledLink to ='/contactus'>Contact and Support</StyledLink>
             </Stack>
           </Grid>
           <Grid item md={3} sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
