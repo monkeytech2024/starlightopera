@@ -2,21 +2,22 @@ import React, { useEffect } from 'react';
 import {CssBaseline} from '@mui/material';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
-import Navbar from './components/NavBar';
-import Home from './pages/home/Home';
+import Navbar from './components/NavBar/NavBar';
+import Home  from './pages/home/home';
 //import Aboutus from './components/Aboutus';
 //import Prevact from './components/Prevact';
 //import Gallery from './components/Gallery';
-import Collection from './pages/collections/collections';
-//import Contactus from './components/Contactus';
-import Footer from "./components/Footer";
+import Collection from './pages/Collections/Collections';
+import News from './pages/news/News';
+import Footer from "./components/Footer/Footer";
+import './App.css';
 
 
 
 
 const theme = createTheme({
   typography: {
-    fontFamily: ['sans-serif','Inconsolata'].join(','),
+    fontFamily: ['Zen Old Mincho','serif'].join(','),
     h1: {
       fontWeight: 700
     },
@@ -34,7 +35,6 @@ const theme = createTheme({
     },
     h6: {
       fontWeight: 700,
-      color: "#FFFFFF"
     },
     h7: {
       fontWeight: 700,
@@ -50,7 +50,8 @@ const theme = createTheme({
       navbar: "#F5F5F5"
     },
     primary: {
-      black: "#0F0F0F",
+      main: "#0F0F0F",
+      red: "#FF0000"
     },
     mode: "light",
     action: {
@@ -69,7 +70,7 @@ useEffect(()=>
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
-      <Home />
+      <News />
       <Footer/>
       </ThemeProvider>
     </>

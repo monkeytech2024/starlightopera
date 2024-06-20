@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Stack, Grid,Typography} from "@mui/material";
+import {Grid} from "@mui/material";
 
 import {} from "@mui/material";
 
@@ -8,11 +8,11 @@ import {} from "@mui/material";
 
 
 
-function Home() {
+function Prevact() {
 
     return (
     <Grid
-      id={'home'}
+      id={'prevact'}
       container
       direction="column"
       justifyContent="center"
@@ -27,11 +27,11 @@ function Home() {
         
       }}
     >
-<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Home Page</Typography></Stack>
+<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Prvious Performances and Activities Page</Typography></Stack>
 
  
     </Grid>
     )
 }
 
-export default Home
+export default Prevact
