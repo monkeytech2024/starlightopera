@@ -2,10 +2,10 @@ import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 
 import React from 'react'
-import {Stack, Grid,Typography} from "@mui/material";
-
+import {Divider, Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
-
+import PageHeader from '../../components/PageHeader/PageHeader';
+import PageContent from '../../components/PageContent/PageContent';
 /*
 export default function WrappedApp() {
   return (
@@ -29,7 +29,7 @@ function Collections() {
       id={'collections'}
       container
       direction="column"
-      justifyContent="center"
+      justifyContent="flex-start"
       sx={{
         minHeight: "100vh",
         color: "black",
@@ -42,8 +42,8 @@ function Collections() {
       }}
     >
 
-
-<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Collection Page</Typography></Stack>
+<PageHeader weight={1.5}>Collections</PageHeader>
+<PageContent>Coming Soon </PageContent>
     </Grid>
     )
 }export default Collections

@@ -4,13 +4,13 @@ import {Route, Routes} from 'react-router';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 
 import Navbar from './components/NavBar/NavBar';
-import Home  from './pages/home/home';
-import Aboutus  from './pages/Aboutus/Aboutus';
+import Home from './pages/Home/Home'
+import AboutUs  from './pages/AboutUs/AboutUs';
 import News  from './pages/News/News';
-import Prevact  from './pages/Prevact/Prevact';
+import PrevAct from './pages/PrevAct/PrevAct';
 import Gallery  from './pages/Gallery/Gallery';
 import Collections  from './pages/Collections/Collections';
-import Contactus from './pages/Contactus/Contactus';
+import ContactUs from './pages/ContactUs/ContactUs';
 
 import Footer from "./components/Footer/Footer";
 import './App.css';
@@ -55,7 +55,10 @@ const theme = createTheme({
     },
     primary: {
       main: "#0F0F0F",
-      red: "#FF0000"
+      red: "#FF0000",
+      black: "#0F0F0F",
+      grey: "#999292"
+
     },
     mode: "light",
     action: {
@@ -77,12 +80,12 @@ useEffect(()=>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
-        <Route path="/aboutus" element={<Aboutus/>}></Route>
+        <Route path="/aboutus" element={<AboutUs/>}></Route>
         <Route path="/news" element={<News/>}></Route>
-        <Route path="/prevact" element={<Prevact/>}></Route>
+        <Route path="/prevact" element={<PrevAct/>}></Route>
         <Route path="/gallery" element={<Gallery/>}></Route>
         <Route path="/collections" element={<Collections/>}></Route>
-        <Route path="/contactus" element={<Contactus/>}></Route>
+        <Route path="/contactus" element={<ContactUs/>}></Route>
         </Routes>
       <Footer/>
       </ThemeProvider>

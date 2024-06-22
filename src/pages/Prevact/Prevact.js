@@ -4,17 +4,16 @@ import {Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
 
 
-
-
-
-function Prevact() {
+import PageHeader from '../../components/PageHeader/PageHeader';
+import PageContent from '../../components/PageContent/PageContent';
+function PrevAct() {
 
     return (
     <Grid
       id={'prevact'}
       container
       direction="column"
-      justifyContent="center"
+      justifyContent="flex-start"
       sx={{
         minHeight: "100vh",
         color: "black",
@@ -26,11 +25,10 @@ function Prevact() {
         
       }}
     >
-<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Previous Performances and Activities Page</Typography></Stack>
-
- 
+      <PageHeader weight={3.5}>Previous Performances and Activities</PageHeader>
+      <PageContent>Coming Soon </PageContent>
     </Grid>
     )
 }
 
-export default Prevact
+export default PrevAct

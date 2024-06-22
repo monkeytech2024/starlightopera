@@ -28,7 +28,7 @@ export default function Copyright() {
     <Grid item xs={2}><Stack direction="row" justifyContent="flex-start"><Typography variant="h4" color="#000000" > Contact Us </Typography></Stack></Grid>
     <Grid item xs={1}><Stack direction="row" justifyContent="flex-start"><Typography variant="h7" color="#000000" ><LocalPhoneOutlinedIcon fontSize='small'/> &nbsp;&nbsp;+1 (647) 887 1393 </Typography></Stack></Grid>
     <Grid item xs={1}><Stack direction="row" justifyContent="flex-start"><Typography variant="h7" color="#000000" ><EmailOutlinedIcon fontSize='small'/>&nbsp;&nbsp;info@starlightopera.com </Typography></Stack></Grid>
-    <Grid item xs={1}><Stack direction="row" justifyContent="flex-start"><Typography variant="h7" color="#000000" ><LocationOnOutlinedIcon fontSize='small'/> &nbsp;&nbsp;Unit 40, 588 Edward Ave. Richmond Hill, L4C 9Y6</Typography></Stack></Grid>
+    <Grid item xs={1}><Stack direction="row" justifyContent="flex-start"><Typography variant="h7" color="#000000" ><LocationOnOutlinedIcon fontSize='small'/> &nbsp;Unit 40, 588 Edward Ave. Richmond Hill, L4C 9Y6</Typography></Stack></Grid>
     <Grid item xs={3}></Grid>
     <Grid item xs={3}><Stack direction="row" justifyContent="flex-start"><ContactBar /></Stack></Grid>
   </Grid>

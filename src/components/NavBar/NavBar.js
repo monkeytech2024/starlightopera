@@ -35,7 +35,7 @@ export default function Navbar() {
   return (
     <AppBar
       className="navbar"
-      position="fixed"
+      position="sticky"
       color="default"
       elevation={0}
       sx={{
@@ -46,7 +46,7 @@ export default function Navbar() {
     >
       <Toolbar>
         <Grid container alignItems="center" justifyContent="space-evenly">
-          <Grid item md={3}>
+          <Grid item md={2.5}>
             <Grid container justifyContent="flex-start" >
 
 <img width={50} height={50} class="ICON"  alt="Starlight Chinese Opera" src={ICON}></img>
@@ -57,7 +57,7 @@ export default function Navbar() {
         </Stack>
             </Grid>
           </Grid>
-          <Grid item md={6}justifyContent="space-evenly" sx={{ display: { xs: 'none', md: 'flex' } }}>
+          <Grid item md={7}justifyContent="center" sx={{ display: { xs: 'none', md: 'flex' } }}>
             <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={{ xs: 2 }}>
               <StyledLink to ='/home'>Home</StyledLink>
               <StyledLink to ='/aboutus'>About Us</StyledLink>
@@ -68,7 +68,7 @@ export default function Navbar() {
               <StyledLink to ='/contactus'>Contact and Support</StyledLink>
             </Stack>
           </Grid>
-          <Grid item md={3} sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
+          <Grid item md={2.5} sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
           <Button variant="contained"   size="large"onClick={(evt) => handleClick(evt, "#aboutme")}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
      borderRadius: "20px", fontSize: 14 }}>繁體中文</Button>
           </Grid>

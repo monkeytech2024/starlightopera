@@ -1,11 +1,11 @@
 import React from 'react'
 
-import {Stack, Grid,Typography} from "@mui/material";
+import {Divider, Stack, Grid,Typography} from "@mui/material";
 
 import {} from "@mui/material";
 
-
-
+import PageHeader from '../../components/PageHeader/PageHeader';
+import PageContent from '../../components/PageContent/PageContent';
 
 
 function Gallery() {
@@ -15,7 +15,7 @@ function Gallery() {
       id={'gallery'}
       container
       direction="column"
-      justifyContent="center"
+      justifyContent="flex-start"
       sx={{
         minHeight: "100vh",
         color: "black",
@@ -28,8 +28,8 @@ function Gallery() {
       }}
     >
 
-<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>Gallery Page</Typography></Stack>
- 
+<PageHeader weight={1.5}>Gallery</PageHeader>
+<PageContent>Coming Soon </PageContent>
     </Grid>
     )
 }

@@ -5,9 +5,8 @@ import {Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
 
 
-
-
-
+import PageHeader from '../../components/PageHeader/PageHeader';
+import PageContent from '../../components/PageContent/PageContent';
 function News() {
 
     return (
@@ -15,7 +14,7 @@ function News() {
       id={'news'}
       container
       direction="column"
-      justifyContent="center"
+      justifyContent="flex-start"
       sx={{
         minHeight: "100vh",
         color: "black",
@@ -27,9 +26,9 @@ function News() {
         
       }}
     >
-<Stack direction="row" justifyContent="center"><Typography  sx={{color:"black", typography: "h6",fontSize: 36 }}>News Page</Typography></Stack>
 
- 
+<PageHeader weight={1.5}>News</PageHeader>
+<PageContent>Coming Soon </PageContent>
     </Grid>
     )
 }
