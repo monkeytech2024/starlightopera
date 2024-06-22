@@ -8,5 +8,6 @@ npm install @emotion/react
 npm install styled-components
 
 ### languages library
-npm install react-i18next i18next i18next-http-backend --save
+npm install react-i18next i18next 
+npm install i18next-browser-languagedetector i18next-intervalplural-postprocessor
 

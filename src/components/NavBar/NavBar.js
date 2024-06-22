@@ -11,11 +11,11 @@ import {Box, Divider, IconButton, Menu, MenuItem, Stack} from "@mui/material";
 import StyledLink from '../StyledLink/StyledLink'; 
 import { BiUnderline } from 'react-icons/bi';
 
-
+import { useTranslation, Trans } from "react-i18next";
 
 export default function Navbar() {
 
-  
+  const { t } = useTranslation();
 
 
 
@@ -59,7 +59,7 @@ export default function Navbar() {
           </Grid>
           <Grid item md={7}justifyContent="center" sx={{ display: { xs: 'none', md: 'flex' } }}>
             <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={{ xs: 2 }}>
-              <StyledLink to ='/home'>Home</StyledLink>
+              <StyledLink to ='/home'>{t("Navbar.home")}</StyledLink>
               <StyledLink to ='/aboutus'>About Us</StyledLink>
               <StyledLink to ='/news'>News</StyledLink>
               <StyledLink to ='/prevact'>Previous Performances and Activities</StyledLink>
