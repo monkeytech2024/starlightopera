@@ -2,15 +2,15 @@ import React, { useState } from 'react'
 
 import {Badge, Button, Grid} from "@mui/material";
 import ICON from "../../assets/images/ICON.png";
-
+import { NavLink } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import {Box, Divider, IconButton, Menu, MenuItem, Stack} from "@mui/material";
-import StyledLink from '../StyledLink/StyledLink'; 
+ 
 import { BiUnderline } from 'react-icons/bi';
-
+import './NavBar.css';
 import { useTranslation} from "react-i18next";
 
 
@@ -62,20 +62,20 @@ export default function Navbar() {
           </Grid>
           <Grid item md={7}justifyContent="center" sx={{ display: { xs: 'none', md: 'flex' } }}>
             <Stack direction="row" divider={<Divider orientation="vertical" flexItem />} spacing={{ xs: 2 }}>
-              <StyledLink to ='/home'>{t("Navbar.home")}</StyledLink>
-              <StyledLink to ='/aboutus'>About Us</StyledLink>
-              <StyledLink to ='/news'>News</StyledLink>
-              <StyledLink to ='/prevact'>Previous Performances and Activities</StyledLink>
-              <StyledLink to ='/gallery'>Gallery</StyledLink>
-              <StyledLink to ='/collections'>Collections</StyledLink>
-              <StyledLink to ='/contactus'>Contact and Support</StyledLink>
+              <NavLink className="navv" to ='/home'>{t("NavBar.Home.title")}</NavLink>
+              <NavLink className="navv" to ='/aboutus'>{t("NavBar.AboutUs.title")}</NavLink>
+              <NavLink className="navv" to ='/news'>{t("NavBar.News.title")}</NavLink>
+              <NavLink className="navv" to ='/prevact'>{t("NavBar.PrevAct.title")}</NavLink>
+              <NavLink className="navv" to ='/gallery'>{t("NavBar.Gallery.title")}</NavLink>
+              <NavLink className="navv" to ='/collections'>{t("NavBar.Collections.title")}</NavLink>
+              <NavLink className="navv" to ='/contactus'>{t("NavBar.ContactUs.title")}</NavLink>
             </Stack>
           </Grid>
           <Grid item md={2.5} sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
           <Button variant="contained"   size="large" onClick={() => changeLng('zh')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
-     borderRadius: "20px", fontSize: 14 , marginRight: 2 , minWidth : 100}}>{t("Navbar.language_chinese")}</Button>
+     borderRadius: "20px", fontSize: 14 , marginRight: 2 , minWidth : "1rem"}}>{t("NavBar.language_chinese")}</Button>
           <Button variant="contained"   size="large" onClick={() => changeLng('en')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
-     borderRadius: "20px", fontSize: 14 }}>{t("Navbar.language_english")}</Button>
+     borderRadius: "20px", fontSize: 14 , minWidth : "1rem"}}>{t("NavBar.language_english")}</Button>
 
      
           </Grid>

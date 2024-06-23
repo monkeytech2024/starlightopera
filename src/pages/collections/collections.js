@@ -8,18 +8,6 @@ import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
 
 
-/*
-export default function WrappedApp() {
-  return (
-    <Suspense fallback="...loading">
-
-    </Suspense>
-  )
-}
-
-*/
-
-
 
 
 
@@ -28,14 +16,14 @@ function Collections() {
     const { t } = useTranslation();
 
     return (
- //<p>{t(general.commingsoon)}</p>
+
     <Grid
       id={'collections'}
       container
       direction="column"
       justifyContent="flex-start"
       sx={{
-        minHeight: "100vh",
+        minHeight: "70vh",
         color: "black",
 
         backgroundColor: "background.main",
@@ -46,8 +34,8 @@ function Collections() {
       }}
     >
 
-<PageHeader weight={1.5}>{t("Navbar.collection")}</PageHeader>
-<PageContent>123</PageContent>
+<PageHeader weight={t("NavBar.Collections.length")}>{t("NavBar.Collections.title")}</PageHeader>
+<PageContent>{t("General.ComingSoon")}</PageContent>
     </Grid>
     )
 }export default Collections

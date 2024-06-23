@@ -1,10 +1,43 @@
 {
-    "Navbar" :{ 
-        "home" : "Home",
-        "collection" : "Collection",
-        "language_chinese" : "繁體中文",
-        "language_english" : "english"
+    "NavBar" :{ 
+        "Home" : 
+        {
+            "title": "Home",
+            "length": 1
+        },
+        "AboutUs": 
+        {
+            "title": "About Us",
+            "length": 1.5
+        },
+        "News":    
+        {
+            "title": "News",
+            "length": 1
+        },
+        "PrevAct":
+        {
+            "title": "Previous Performances and Activities",
+            "length": 3.5
+        },
+        "Gallery": 
+        {
+            "title": "Gallery",
+            "length": 1
+        },
+        "Collections":
+        {
+            "title": "Collections",
+            "length": 1.5
+        },
+        "ContactUs":         
+        {
+            "title": "Contact and Support",
+            "length": 2
+        },
+        "language_english" : "ENG",
+        "language_chinese" : "繁體中文"
     },
-    "general" :{ "commingsoon" : "Commming Soonabc"
+    "General" :{ "ComingSoon" : "Coming Soon"
 }
 }

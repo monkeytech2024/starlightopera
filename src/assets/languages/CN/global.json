@@ -1,11 +1,44 @@
 {
-    "Navbar" :{ 
-        "home" : "主頁",
-        "collection" : "藏品",
-        "language_english" : "english",
+    "NavBar" :{ 
+        "Home" : 
+        {
+            "title": "主頁",
+            "length": 1
+        },
+        "AboutUs": 
+        {
+            "title": "關於我們",
+            "length": 1.5
+        },
+        "News":    
+        {
+            "title": "最新消息",
+            "length": 1.5
+        },
+        "PrevAct":
+        {
+            "title": "過往演出及活動",
+            "length": 2
+        },
+        "Gallery": 
+        {
+            "title": "活動花絮",
+            "length": 1.5
+        },
+        "Collections":
+        {
+            "title": "藏品",
+            "length": 1
+        },
+        "ContactUs":         
+        {
+            "title": "聯絡及支持",
+            "length": 1.5
+        },
+        "language_english" : "ENG",
         "language_chinese" : "繁體中文"
     },
-    "general" :{ "commingsoon" : "主頁"
+    "General" :{ "ComingSoon" : "即將推出"
 }
 
 }

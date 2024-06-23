@@ -1,14 +1,14 @@
 import React from 'react'
 
 import {Stack, Grid,Typography} from "@mui/material";
-
+import { useTranslation } from 'react-i18next';
 import {} from "@mui/material";
 
 
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
 function News() {
-
+  const { t } = useTranslation();
     return (
     <Grid
       id={'news'}
@@ -16,7 +16,7 @@ function News() {
       direction="column"
       justifyContent="flex-start"
       sx={{
-        minHeight: "100vh",
+        minHeight: "70vh",
         color: "black",
 
         backgroundColor: "background.main",
@@ -27,8 +27,8 @@ function News() {
       }}
     >
 
-<PageHeader weight={1.5}>News</PageHeader>
-<PageContent>Coming Soon </PageContent>
+<PageHeader weight={t("NavBar.News.length")}>{t("NavBar.News.title")}</PageHeader>
+<PageContent>{t("General.ComingSoon")} </PageContent>
     </Grid>
     )
 }

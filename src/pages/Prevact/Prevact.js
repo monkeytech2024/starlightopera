@@ -2,12 +2,12 @@ import React from 'react'
 
 import {Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
-
+import { useTranslation } from 'react-i18next';
 
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
 function PrevAct() {
-
+  const { t } = useTranslation();
     return (
     <Grid
       id={'prevact'}
@@ -15,7 +15,7 @@ function PrevAct() {
       direction="column"
       justifyContent="flex-start"
       sx={{
-        minHeight: "100vh",
+        minHeight: "70vh",
         color: "black",
 
         backgroundColor: "background.main",
@@ -25,8 +25,8 @@ function PrevAct() {
         
       }}
     >
-      <PageHeader weight={3.5}>Previous Performances and Activities</PageHeader>
-      <PageContent>Coming Soon </PageContent>
+      <PageHeader weight={t("NavBar.PrevAct.length")}>{t("NavBar.PrevAct.title")}</PageHeader>
+      <PageContent>{t("General.ComingSoon")} </PageContent>
     </Grid>
     )
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Stack, Grid,Typography} from "@mui/material";
-
+import { useTranslation } from 'react-i18next';
 import {} from "@mui/material";
 
 import PageHeader from '../../components/PageHeader/PageHeader';
@@ -9,7 +9,7 @@ import PageContent from '../../components/PageContent/PageContent';
 
 
 function Contactus () {
-
+  const { t } = useTranslation();
     return (
     <Grid
       id={'contactandsupport'}
@@ -17,7 +17,7 @@ function Contactus () {
       direction="column"
       justifyContent="flex-start"
       sx={{
-        minHeight: "100vh",
+        minHeight: "70vh",
         color: "black",
 
         backgroundColor: "background.main",
@@ -27,8 +27,8 @@ function Contactus () {
         
       }}
     >
-            <PageHeader weight={2.5}>Contact and Support</PageHeader>
-            <PageContent>Coming Soon </PageContent>
+            <PageHeader weight={t("NavBar.ContactUs.length")}>{t("NavBar.ContactUs.title")}</PageHeader>
+            <PageContent>{t("General.ComingSoon")} </PageContent>
     </Grid>
     )
 }

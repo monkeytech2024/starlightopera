@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {Divider, Stack, Grid,Typography} from "@mui/material";
-
+import { useTranslation } from 'react-i18next';
 import {} from "@mui/material";
 
 import PageHeader from '../../components/PageHeader/PageHeader';
@@ -9,7 +9,7 @@ import PageContent from '../../components/PageContent/PageContent';
 
 
 function Gallery() {
-
+  const { t } = useTranslation();
     return (
     <Grid
       id={'gallery'}
@@ -17,7 +17,7 @@ function Gallery() {
       direction="column"
       justifyContent="flex-start"
       sx={{
-        minHeight: "100vh",
+        minHeight: "70vh",
         color: "black",
 
         backgroundColor: "background.main",
@@ -28,8 +28,8 @@ function Gallery() {
       }}
     >
 
-<PageHeader weight={1.5}>Gallery</PageHeader>
-<PageContent>Coming Soon </PageContent>
+<PageHeader weight={t("NavBar.Gallery.length")}>{t("NavBar.Gallery.title")}</PageHeader>
+<PageContent>{t("General.ComingSoon")} </PageContent>
     </Grid>
     )
 }

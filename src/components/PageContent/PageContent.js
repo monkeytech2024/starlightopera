@@ -6,7 +6,7 @@ import {Divider, Chip,Stack, Grid,Typography} from "@mui/material";
 const PageContent = ({ children }) => {
 
     return (
-      <Grid marginTop={10}container alignItems="center" justifyContent="space-evenly">
+      <Grid marginTop={"4vh"}container alignItems="center" justifyContent="space-evenly">
       
       <Grid item xs={5}/>
       <Grid item xs={2}><Stack marginTop= "100px" direction="row" justifyContent="center"><Typography  color="primary.grey" fontSize={40}>{children}</Typography></Stack></Grid>
