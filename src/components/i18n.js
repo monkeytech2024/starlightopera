@@ -16,6 +16,6 @@ const resources = {
 
 i18n.use(initReactI18next).use(intervalPlural).use(LanguageDetector).init({
   resources,
-  lng: "en",
+  lng: "zh",
   fallbackLng: "en",
 });

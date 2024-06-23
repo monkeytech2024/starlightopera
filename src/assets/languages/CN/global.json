@@ -1,5 +1,8 @@
 {
-    "Navbar" :{ "home" : "主頁"
+    "Navbar" :{ 
+        "home" : "主頁",
+        "language_english" : "english",
+        "language_chinese" : "繁體中文"
     },
     "general" :{ "commingsoon" : "主頁"
 }

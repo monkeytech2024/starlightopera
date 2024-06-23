@@ -6,6 +6,8 @@ import {Divider, Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
+
+
 /*
 export default function WrappedApp() {
   return (
@@ -22,7 +24,9 @@ export default function WrappedApp() {
 
 
 function Collections() {
-//const { t, i18n } = useTranslation();
+
+    const { t } = useTranslation();
+
     return (
  //<p>{t(general.commingsoon)}</p>
     <Grid
@@ -42,8 +46,8 @@ function Collections() {
       }}
     >
 
-<PageHeader weight={1.5}>Collections</PageHeader>
-<PageContent>Coming Soon </PageContent>
+<PageHeader weight={1.5}>{t("Navbar.home")}</PageHeader>
+<PageContent>123</PageContent>
     </Grid>
     )
 }export default Collections

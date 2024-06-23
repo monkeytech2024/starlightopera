@@ -1,6 +1,9 @@
 {
-    "Navbar" :{ "home" : "Home"
+    "Navbar" :{ 
+        "home" : "Home",
+        "language_chinese" : "繁體中文",
+        "language_english" : "english"
     },
-    "general" :{ "commingsoon" : "Commming Soon!!"
+    "general" :{ "commingsoon" : "Commming Soonabc"
 }
 }

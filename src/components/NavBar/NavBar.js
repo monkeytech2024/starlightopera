@@ -11,13 +11,16 @@ import {Box, Divider, IconButton, Menu, MenuItem, Stack} from "@mui/material";
 import StyledLink from '../StyledLink/StyledLink'; 
 import { BiUnderline } from 'react-icons/bi';
 
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation} from "react-i18next";
+
 
 export default function Navbar() {
 
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-
+  const changeLng = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   const handleClick = (event, dest) => {
     const anchor = (
@@ -69,8 +72,12 @@ export default function Navbar() {
             </Stack>
           </Grid>
           <Grid item md={2.5} sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
-          <Button variant="contained"   size="large"onClick={(evt) => handleClick(evt, "#aboutme")}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
-     borderRadius: "20px", fontSize: 14 }}>繁體中文</Button>
+          <Button variant="contained"   size="large" onClick={() => changeLng('zh')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
+     borderRadius: "20px", fontSize: 14 , marginRight: 2 , minWidth : 100}}>{t("Navbar.language_chinese")}</Button>
+          <Button variant="contained"   size="large" onClick={() => changeLng('en')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
+     borderRadius: "20px", fontSize: 14 }}>{t("Navbar.language_english")}</Button>
+
+     
           </Grid>
         </Grid>
       </Toolbar>
