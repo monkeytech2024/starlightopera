@@ -56,6 +56,7 @@ const theme = createTheme({
     primary: {
       main: "#0F0F0F",
       red: "#FF0000",
+      darkred:"#BB0000",
       black: "#0F0F0F",
       grey: "#999292"
 

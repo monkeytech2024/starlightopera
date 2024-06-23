@@ -20,6 +20,7 @@ export default function Navbar() {
 
   const changeLng = (lng) => {
     i18n.changeLanguage(lng);
+    document.getElementsByClassName('lang').disabled = true;
   };
 
   const handleClick = (event, dest) => {
@@ -72,10 +73,10 @@ export default function Navbar() {
             </Stack>
           </Grid>
           <Grid item md={2.5} sx={{ display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
-          <Button variant="contained"   size="large" onClick={() => changeLng('zh')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
-     borderRadius: "20px", fontSize: 14 , marginRight: 2 , minWidth : "1rem"}}>{t("NavBar.language_chinese")}</Button>
-          <Button variant="contained"   size="large" onClick={() => changeLng('en')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
-     borderRadius: "20px", fontSize: 14 , minWidth : "1rem"}}>{t("NavBar.language_english")}</Button>
+          <Button className="lang" variant="contained"   size="large" onClick={() => changeLng('zh')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
+     borderRadius: "20px", fontSize: 14 , marginRight: 2 , minWidth : "6.5rem"}}>{t("NavBar.language_chinese")}</Button>
+          <Button className="lang" variant="contained"    size="large" onClick={() => changeLng('en')}  sx={{color: '#ffffff', bgcolor: '#A7A7A7', transition: "0.4s",
+     borderRadius: "20px", fontSize: 14 , minWidth : "6.5rem"}}>{t("NavBar.language_english")}</Button>
 
      
           </Grid>

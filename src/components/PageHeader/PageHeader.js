@@ -6,12 +6,12 @@ import {Divider, Chip,Stack, Grid,Typography} from "@mui/material";
 const MedHeader = ( { children ,weight}) => {
 
     return (
-      <Grid marginTop={"8vh"}container alignItems="center" justifyContent="space-evenly">
-      <Grid item xs={3.25}/>
-      <Grid item xs={(5.5-weight)/2}><Divider sx={{marginTop: "1rem",backgroundColor: "primary.main",height: "0.1rem",width: "100%"}}/></Grid>
-      <Grid item xs={weight} ><Stack direction="row" justifyContent="center"><Typography  color="primary.main" fontSize={"2rem"}>{children}</Typography></Stack></Grid>
-      <Grid item xs={(5.5-weight)/2}><Divider sx={{marginTop: "1rem", backgroundColor: "primary.main",height:"0.1rem",width: "100%"}}/></Grid>
-    <Grid item xs={3.25}/> 
+      <Grid marginTop={"6vh"}container alignItems="center" justifyContent="space-evenly">
+      <Grid item xs={4.25}/>
+      <Grid item xs={(3.5-weight)/2}><Divider sx={{marginTop: "0.1rem",backgroundColor: "primary.darkred",height: "0.1rem",width: "100%"}}/></Grid>
+      <Grid item xs={weight} ><Stack direction="row" justifyContent="center"><Typography variant="h4" color="primary.darkred" fontSize={"150%"}>{children}</Typography></Stack></Grid>
+      <Grid item xs={(3.5-weight)/2}><Divider sx={{marginTop: "0.1rem", backgroundColor: "primary.darkred",height:"0.1rem",width: "100%"}}/></Grid>
+    <Grid item xs={4.25}/> 
     </Grid>
     );
    };
