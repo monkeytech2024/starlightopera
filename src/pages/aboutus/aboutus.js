@@ -2,7 +2,7 @@ import React from 'react'
 import {Divider, Chip,Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
 import { useTranslation } from 'react-i18next';
-
+import Transition from '../../components/Transition/Transition';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
 
@@ -34,4 +34,4 @@ function Aboutus() {
     )
 }
 
-export default Aboutus
+export default Transition(Aboutus);

@@ -3,7 +3,7 @@ import React from 'react'
 import {Divider, Stack, Grid,Typography} from "@mui/material";
 import { useTranslation } from 'react-i18next';
 import {} from "@mui/material";
-
+import Transition from '../../components/Transition/Transition';
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
 
@@ -34,4 +34,4 @@ function Gallery() {
     )
 }
 
-export default Gallery
+export default Transition(Gallery);

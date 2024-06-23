@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
-
+import Transition from '../../components/Transition/Transition';
 import React from 'react'
 import {Divider, Stack, Grid,Typography} from "@mui/material";
 import {} from "@mui/material";
@@ -38,6 +38,6 @@ function Collections() {
 <PageContent>{t("General.ComingSoon")}</PageContent>
     </Grid>
     )
-}export default Collections
+}export default Transition(Collections);
 
 

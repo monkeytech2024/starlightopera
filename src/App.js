@@ -11,7 +11,7 @@ import PrevAct from './pages/PrevAct/PrevAct';
 import Gallery  from './pages/Gallery/Gallery';
 import Collections  from './pages/Collections/Collections';
 import ContactUs from './pages/ContactUs/ContactUs';
-
+import { AnimatePresence } from 'framer-motion';
 import Footer from "./components/Footer/Footer";
 import './App.css';
 
@@ -78,6 +78,7 @@ useEffect(()=>
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
+      <AnimatePresence mode="wait">
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/home" element={<Home/>}></Route>
@@ -88,6 +89,7 @@ useEffect(()=>
         <Route path="/collections" element={<Collections/>}></Route>
         <Route path="/contactus" element={<ContactUs/>}></Route>
         </Routes>
+        </AnimatePresence>
       <Footer/>
       </ThemeProvider>
     </>

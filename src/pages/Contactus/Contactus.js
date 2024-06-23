@@ -9,7 +9,7 @@ import PageHeader from '../../components/PageHeader/PageHeader';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
-
+import Transition from '../../components/Transition/Transition';
 function Contactus () {
   const { t } = useTranslation();
     return (
@@ -123,4 +123,4 @@ function Contactus () {
     )
 }
 
-export default Contactus;
+export default Transition(Contactus);

@@ -3,7 +3,7 @@ import React from 'react'
 import {Stack, Grid,Typography} from "@mui/material";
 import { useTranslation } from 'react-i18next';
 import {} from "@mui/material";
-
+import Transition from '../../components/Transition/Transition';
 
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
@@ -33,4 +33,4 @@ function News() {
     )
 }
 
-export default News
+export default Transition(News);

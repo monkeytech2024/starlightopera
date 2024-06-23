@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 import {} from "@mui/material";
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
-
+import Transition from '../../components/Transition/Transition';
 
 
 
@@ -35,4 +35,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Transition(Home);
