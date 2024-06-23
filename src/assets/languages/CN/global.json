@@ -33,7 +33,7 @@
         "ContactUs":         
         {
             "title": "聯絡及支持",
-            "length": 1.25
+            "length": 1
         },
         "language_english" : "ENG",
         "language_chinese" : "繁體中文"
@@ -42,15 +42,16 @@
     {
         "ContactUs": "聯絡我們",
         "SupportUs": "支持我們",
-        "SupportSlogan": "您的支持能夠協助粵劇在加拿大推廣和發展!",
-        "SupportText": "你的支持將會為寶新聲戲曲演藝中心在加拿大的粵劇推廣帶來幫助，讓更多的人認識粵劇文化。請支持我們!",
-        "Method-1": "支持方法一:",
+        "Contact": "聯絡資料",
+        "SupportSlogan": "您的支持能夠協助粵劇在加拿大推廣和發展！",
+        "SupportText": "你的支持將會為寶新聲戲曲演藝中心在加拿大的粵劇推廣帶來幫助，讓更多的人認識粵劇文化。請支持我們！",
+        "Method-1": "支持方法一：",
         "Method-1-Title": "E-transfer",
         "Method-1-Step1":"1. 登入你的網上銀行或手機銀行應用程式。",
-        "Method-1-Step2":"2. 輸入 「info@starlightopera.com」 作為收款人電郵地址",
-        "Method-1-Step3":"3. 輸入支持款項",
-        "Method-2": "支持方法二:",
-        "Method-2-Title": "Paypal",
+        "Method-1-Step2":"2. 輸入 「info@starlightopera.com」 作為收款人電郵地址。",
+        "Method-1-Step3":"3. 輸入支持款項。",
+        "Method-2": "支持方法二：",
+        "Method-2-Title": "PayPal",
         "Method-2-Step1":"1. 登入 Paypal帳戶並前往「付款和要求付款」。",
         "Method-2-Step2":"2. 輸入「info@starlightopera.com」作為收款人電子郵件地址或手機號碼，然後按一下「下一步」。",
         "Method-2-Step3":"3. 輸入金額和想使用的付款方式，然後按一下「下一步」。",

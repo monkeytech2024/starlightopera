@@ -29,14 +29,14 @@ function Contactus () {
         
       }}
     >
-            <PageHeader weight={t("NavBar.ContactUs.length")}>{t("NavBar.ContactUs.title")}</PageHeader>
-            <Grid marginTop={10} minHeight="70vh" container>
+            <PageHeader weight={t("NavBar.ContactUs.length")}>{t("ContactUs.ContactUs")}</PageHeader>
+            <Grid marginTop={15} marginBottom={15} minHeight="70vh" container>
 
               <Grid item md={2}/>
               <Grid item md={3}>
                 <Stack direction="column" spacing={2}>
                   <Stack direction="column" paddingBottom={3}>
-                    <Typography variant="h4" color="primary.darkred" sx={{textDecoration: "underline", textUnderlineOffset: "15px"}}> {t("ContactUs.ContactUs")}&nbsp;&nbsp;&nbsp;</Typography>
+                    <Typography variant="h4" fontSize={"2.5rem"} color="primary.darkred" > {t("ContactUs.Contact")}</Typography>
                   </Stack>
                   
                   <Stack direction="row" spacing={2}>
@@ -63,19 +63,17 @@ function Contactus () {
                <Grid item md={2}/>
             </Grid>
 
+            <PageHeader weight={t("NavBar.ContactUs.length")}>{t("ContactUs.SupportUs")}</PageHeader>
 
-
-            <Grid marginTop={20} container>
+            <Grid marginTop={15} container>
 
 <Grid item md={2}/>
 <Grid item md={4.5}>
   <Stack direction="column" spacing={2}>
-    <Stack direction="row" paddingBottom={3}>
-      <Typography variant="h4" color="primary.darkred"  sx={{textDecoration: "underline", textUnderlineOffset: "15px"}}>{t("ContactUs.SupportUs")}&nbsp;&nbsp;&nbsp;</Typography>
-    </Stack>
 
-    <Stack direction="row"spacing={2}>
-      <Typography variant="h6" fontSize={"1.1rem"} color="#000000" >{t("ContactUs.SupportSlogan")} </Typography>
+
+    <Stack direction="row"spacing={2} paddingBottom={3}>
+      <Typography variant="h4" fontSize={"2.5rem"} color="primary.darkred" >{t("ContactUs.SupportSlogan")} </Typography>
     </Stack>
     <Stack direction="row"spacing={2}>
       <Typography  fontSize={"1.1rem"} color="#000000" >{t("ContactUs.SupportText")} </Typography>
