@@ -46,7 +46,7 @@ function Collections() {
       }}
     >
 
-<PageHeader weight={1.5}>{t("Navbar.home")}</PageHeader>
+<PageHeader weight={1.5}>{t("Navbar.collection")}</PageHeader>
 <PageContent>123</PageContent>
     </Grid>
     )

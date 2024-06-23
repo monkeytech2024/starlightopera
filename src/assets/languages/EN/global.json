@@ -1,6 +1,7 @@
 {
     "Navbar" :{ 
         "home" : "Home",
+        "collection" : "Collection",
         "language_chinese" : "繁體中文",
         "language_english" : "english"
     },
