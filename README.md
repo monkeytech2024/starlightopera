@@ -5,7 +5,7 @@ npm install @mui/material
 npm install @material-ui/core
 npm install @mui/icon-material
 npm install @emotion/react
-npm install styled-components
+npm install framer-motion 
 
 ### languages library
 npm install react-i18next i18next 
