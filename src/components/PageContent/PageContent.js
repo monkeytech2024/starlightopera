@@ -6,12 +6,15 @@ import {Divider, Chip,Stack, Grid,Typography} from "@mui/material";
 const PageContent = ({ children }) => {
 
     return (
-      <Grid marginTop={"4vh"}container alignItems="center" justifyContent="space-evenly">
-      
-      <Grid item xs={5}/>
-      <Grid item xs={2}><Stack marginTop= "100px" direction="row" justifyContent="center"><Typography  color="primary.grey" fontSize={40}>{children}</Typography></Stack></Grid>
-      <Grid item xs={5}/>
+
+      <Grid item md={12} xs={12} marginTop={"20vh"}container alignItems="center" justifyContent="center">
+      <Stack direction="row" width={{md:"20vw", xs:"80vw"}}justifyContent="center">
+      <Typography  fontWeight={{md:"400", xs:"500"}} color="primary.grey" fontSize={{md:"2vw", xs:"8vw"}}>{children}</Typography>
+
+    </Stack>
     </Grid>
+
+
     );
    };
    export default PageContent;

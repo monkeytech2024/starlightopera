@@ -3,37 +3,37 @@
         "Home" : 
         {
             "title": "Home",
-            "length": 0.5
+            "length": 4
         },
         "AboutUs": 
         {
             "title": "About Us",
-            "length": 0.74
+            "length": 6
         },
         "News":    
         {
             "title": "News",
-            "length": 0.5
+            "length": 4
         },
         "PrevAct":
         {
             "title": "Previous Performances and Activities",
-            "length": 2.42
+            "length": 22
         },
         "Gallery": 
         {
             "title": "Gallery",
-            "length": 0.68
+            "length": 3.5
         },
         "Collections":
         {
             "title": "Collections",
-            "length": 0.92
+            "length": 7
         },
         "ContactUs":         
         {
             "title": "Contact and Support",
-            "length": 1.4
+            "length": 13
         },
         "language-zh" : "繁體中文",
         "language-en" : "ENG"
