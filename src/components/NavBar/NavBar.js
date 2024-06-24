@@ -99,7 +99,7 @@ import {makeStyles} from "@mui/styles";
 
       sx={{
         margin:"0vh",
-        width: "100%",
+        width: "100vw",
         minHeight: getMinHeight(),
         borderBottom: (theme) => `1px solid ${theme.palette.divider}`,
         bgcolor: 'background.navbar',
@@ -122,7 +122,7 @@ import {makeStyles} from "@mui/styles";
         </Stack>
             </Grid>
           </Grid>
-          <Grid   marginTop={{md: "0vh", xs:"20vh"}} className={nav ? 'nav-menu active' : 'nav-menu'} item display={{md:"flex"}} md={7} justifyContent="center">
+          <Grid   marginTop={{md: "0vh",xs:"20vh"}} className={nav ? 'nav-menu active' : 'nav-menu'} item display={{md:"flex"}} md={7} justifyContent="center">
             <Stack spacing="15vh" justifyContent={"space-between"} direction={{xs:"column"}}>
             <Stack direction={{md:"row", xs:"column"}} divider={<Divider orientation="vertical" flexItem />} spacing={{ md: "1vh", xs: "2vh" }}>
               <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/home'>{t("NavBar.Home.title")}</NavLink></Stack>
