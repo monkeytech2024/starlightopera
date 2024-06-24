@@ -3,37 +3,37 @@
         "Home" : 
         {
             "title": "主頁",
-            "length": 0.6
+            "length": 3
         },
         "AboutUs": 
         {
             "title": "關於我們",
-            "length": 0.8
+            "length": 6
         },
         "News":    
         {
             "title": "最新消息",
-            "length": 0.8
+            "length": 6
         },
         "PrevAct":
         {
             "title": "過往演出及活動",
-            "length": 1.1
+            "length": 10
         },
         "Gallery": 
         {
             "title": "活動花絮",
-            "length": 0.8
+            "length": 6
         },
         "Collections":
         {
             "title": "藏品",
-            "length": 0.6
+            "length": 3
         },
         "ContactUs":         
         {
             "title": "聯絡及支持",
-            "length": 0.9
+            "length": 7
         },
         "language-zh" : "繁體中文",
         "language-en" : "ENG"
