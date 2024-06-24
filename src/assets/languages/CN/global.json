@@ -3,40 +3,40 @@
         "Home" : 
         {
             "title": "主頁",
-            "length": 0.75
+            "length": 0.6
         },
         "AboutUs": 
         {
             "title": "關於我們",
-            "length": 1
+            "length": 0.8
         },
         "News":    
         {
             "title": "最新消息",
-            "length": 1
+            "length": 0.8
         },
         "PrevAct":
         {
             "title": "過往演出及活動",
-            "length": 1.5
+            "length": 1.1
         },
         "Gallery": 
         {
             "title": "活動花絮",
-            "length": 1
+            "length": 0.8
         },
         "Collections":
         {
             "title": "藏品",
-            "length": 0.75
+            "length": 0.6
         },
         "ContactUs":         
         {
             "title": "聯絡及支持",
-            "length": 1
+            "length": 0.9
         },
-        "language_english" : "ENG",
-        "language_chinese" : "繁體中文"
+        "language-zh" : "繁體中文",
+        "language-en" : "ENG"
     },
     "ContactUs":
     {
@@ -44,7 +44,7 @@
         "SupportUs": "支持我們",
         "Contact": "聯絡資料",
         "SupportSlogan": "您的支持能夠協助粵劇在加拿大推廣和發展！",
-        "SupportText": "你的支持將會為寶新聲戲曲演藝中心在加拿大的粵劇推廣帶來幫助，讓更多的人認識粵劇文化。請支持我們！",
+        "SupportText": "作為一個致力於在加拿大保存及推廣傳統中國戲曲給新一代和大眾的非營利組織，我們誠摯地呼籲大眾慷慨贊助我們。中國戲曲作為中華文化的重要組成部分，擁有悠久的歷史和深厚的藝術底蘊。我們的使命是透過舉辦表演、教育活動和社區項目，傳承和弘揚這項寶貴的藝術遺產。您的支持能夠肯定我們的努力，幫助我們擴大影響力，讓更多對中國戲曲有興趣的公眾能夠體驗和欣賞到這獨特而精彩的文化藝術。感謝您慷慨的支持！",
         "Method-1": "支持方法一：",
         "Method-1-Title": "E-transfer",
         "Method-1-Step1":"1. 登入你的網上銀行或手機銀行應用程式。",
@@ -59,7 +59,10 @@
     },
     "Footer":
     {
-        "ContactUs": "聯絡我們"
+        "ContactUs": "聯絡我們",
+        "Copyright-prefix": "版權所有© ",
+        "Copyright-suffix": " 寶新聲戲曲演藝中心"
+        
     },
     "General" :{ "ComingSoon" : "即將推出"
 }

@@ -1,18 +1,24 @@
-.navv
+.navv, .lang
 {
+    font-family: 'Zen Old Mincho';
     text-decoration: none;
     color: black;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1.5vh;
+    text-underline-offset: 0.8vh;
 }
 
-.navv:hover
+
+
+.navv:hover, .lang:hover
 {
     color: #CC0000;
 }
 
-.active
+.navv.active
 {
     color: #CC0000;
     text-decoration: underline;
-    text-underline-offset: 8px;
+    text-underline-offset: 0.8vh;
 }
+

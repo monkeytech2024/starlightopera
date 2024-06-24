@@ -3,48 +3,47 @@
         "Home" : 
         {
             "title": "Home",
-            "length": 0.75
+            "length": 0.5
         },
         "AboutUs": 
         {
             "title": "About Us",
-            "length": 1
+            "length": 0.74
         },
         "News":    
         {
             "title": "News",
-            "length": 0.75
+            "length": 0.5
         },
         "PrevAct":
         {
             "title": "Previous Performances and Activities",
-            "length": 2.5
+            "length": 2.42
         },
         "Gallery": 
         {
             "title": "Gallery",
-            "length": 0.75
+            "length": 0.68
         },
         "Collections":
         {
             "title": "Collections",
-            "length": 1
+            "length": 0.92
         },
         "ContactUs":         
         {
             "title": "Contact and Support",
-            "length": 1
+            "length": 1.4
         },
-        "language_english" : "ENG",
-        "language_chinese" : "繁體中文"
+        "language-zh" : "繁體中文",
+        "language-en" : "ENG"
     },
     "ContactUs":
     {
         "ContactUs": "Contact Us",
         "SupportUs": "Support Us",
         "Contact": "Contact",
-        "SupportSlogan": "您的支持能夠協助粵劇在加拿大推廣和發展!",
-        "SupportText": "你的支持將會為寶新聲戲曲演藝中心在加拿大的粵劇推廣帶來幫助，讓更多的人認識粵劇文化。請支持我們!",
+        "SupportText": "As a non-profit organization dedicated to introducing traditional Chinese opera to the new generation and the public in Canada, we are reaching out to request your generous sponsorship. Chinese opera holds a significant place in Chinese culture with its rich history and profound artistic heritage. Our goal is to preserve and promote this valuable cultural legacy through performances, educational activities, and community projects. Your sponsorship will directly contribute to expanding our outreach, allowing more Canadians to experience and appreciate this unique and wonderful cultural art form. Thank you for your generous support!",
         "Method-1": "Method 1:",
         "Method-1-Title": "E-transfer",
         "Method-1-Step1":"1. Login to your online or mobile banking app.",
@@ -59,7 +58,10 @@
     },
     "Footer":
     {
-        "ContactUs": "Contact Us"
+        "ContactUs": "Contact Us",
+        "Copyright-prefix": "Copyright© ",
+        "Copyright-suffix": " Starlight Chinese Opera Performing Arts Centre"
+        
     },
     "General" :{ "ComingSoon" : "Coming Soon"
 }
