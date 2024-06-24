@@ -26,3 +26,46 @@
     text-underline-offset: 0.8vh;
 }
 
+@media screen and (max-width: 900px) {
+    .hamburger {
+        display: block;
+        z-index: 20;
+    }
+
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        height: 60vh;
+        top: 0;
+        transition: 0.9s ease-in-out;
+    }
+
+    .active {
+        display: flex;
+
+    }
+
+    .navv, .lang
+    {
+        font-family: 'Zen Old Mincho';
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        font-size: 1.8vh;
+        text-underline-offset: 0.8vh;
+    }
+
+
+    .hide {
+        display: none;
+    }
+
+}
+@media screen and (max-width: 495px) {
+    .nav-menu {
+        width: 75%;
+    }
+
+}
