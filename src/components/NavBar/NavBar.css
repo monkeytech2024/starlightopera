@@ -9,8 +9,12 @@
 }
 
 
+.navv:hover
+{
+    color: #CC0000;
+}
 
-.navv:hover, .lang:hover
+.lang:hover
 {
     color: #CC0000;
 }

@@ -12,8 +12,27 @@ import {Link, Box, Divider, IconButton, Menu, MenuItem, Stack} from "@mui/materi
 import { BiUnderline } from 'react-icons/bi';
 import './NavBar.css';
 import { useTranslation} from "react-i18next";
-
-
+import {makeStyles} from "@mui/styles";
+    const useStyles = makeStyles({
+      activeStyle : {
+        fontFamily: 'Zen Old Mincho',
+        fontWeight: "400",
+        color: '#CC0000',
+        textDecoration: 'underline',
+        fontSize: '1.5vh',
+        textUnderlineOffset: '0.8vh', 
+    },
+    deactiveStyle :{
+      fontFamily: 'Zen Old Mincho',
+      fontWeight: "400",
+      color: '#000000',
+      textDecoration: 'none',
+      fontSize: '1.5vh',
+      '&:hover': {
+        color: '#CC0000'
+    },
+  }
+  });
 export default function Navbar() {
 
   const { t, i18n } = useTranslation();
@@ -23,30 +42,20 @@ export default function Navbar() {
 
     };
 
-    const activeStyle = {
-      
-        color: '#CC0000',
-        textDecoration: 'underline',
-        fontSize: '1.5vh',
-    };
 
-    const deactiveStyle = {
-      
-      color: '#000000',
-      textDecoration: 'none',
-      fontSize: '1.5vh',
-  };
+
+
 
 
   const styles = (lang) =>
   {
     if(i18n.language == lang)
       {
-        return activeStyle;
+        return classes.activeStyle;
       }
       else
       {
-        return deactiveStyle;
+        return classes.deactiveStyle;
       }
   }
   const handleClick = (event, dest) => {
@@ -61,6 +70,8 @@ export default function Navbar() {
       });
     }
   };
+
+  const classes = useStyles();
 
   return (
     <AppBar
@@ -104,8 +115,8 @@ export default function Navbar() {
           </Grid>
           <Grid item  md={2.5}  sx={{display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
             <Stack direction="row" marginTop="0.2vh" spacing="1.5vh">
-          <NavLink className="lang" style={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
-          <NavLink className="lang" style={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink></Stack>
+          <NavLink className={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
+          <NavLink className={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink></Stack>
 
             
 
