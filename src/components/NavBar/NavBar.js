@@ -122,8 +122,8 @@ import {makeStyles} from "@mui/styles";
         </Stack>
             </Grid>
           </Grid>
-          <Grid   marginTop="15vh" className={nav ? 'nav-menu active' : 'nav-menu'} item display={{md:"flex"}} md={7} justifyContent="center">
-            <Stack spacing="2vh" justifyContent={"space-between"} direction={{xs:"column"}}>
+          <Grid   marginTop={{md: "0vh", xs:"20vh"}} className={nav ? 'nav-menu active' : 'nav-menu'} item display={{md:"flex"}} md={7} justifyContent="center">
+            <Stack spacing="15vh" justifyContent={"space-between"} direction={{xs:"column"}}>
             <Stack direction={{md:"row", xs:"column"}} divider={<Divider orientation="vertical" flexItem />} spacing={{ md: "1vh", xs: "2vh" }}>
               <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/home'>{t("NavBar.Home.title")}</NavLink></Stack>
               <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/aboutus'>{t("NavBar.AboutUs.title")}</NavLink></Stack>
@@ -133,7 +133,7 @@ import {makeStyles} from "@mui/styles";
               <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/collections'>{t("NavBar.Collections.title")}</NavLink></Stack>
               <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/contactus'>{t("NavBar.ContactUs.title")}</NavLink></Stack>
 
-            </Stack>              <Stack direction="row" display={{md:"none", xs:"flex"}} justifyContent={"center"} marginTop="200vh" spacing="1.5vh">
+            </Stack>              <Stack direction="row" display={{md:"none", xs:"flex"}} justifyContent={"center"} marginTop="20vh" spacing="1.5vh">
           <NavLink className={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
           <NavLink className={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink></Stack>
 </Stack>
