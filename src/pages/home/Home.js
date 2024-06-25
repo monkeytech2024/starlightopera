@@ -8,9 +8,6 @@ import PageContent from '../../components/PageContent/PageContent';
 import Transition from '../../components/Transition/Transition';
 
 import Carousel from "../../components/Carousel/Carousel";
-import img1 from "../../assets/images/banner.jpg";
-import img2 from "../../assets/images/banner.jpg";
-import img3 from "../../assets/images/ICON.png";
 
 
 
@@ -18,15 +15,7 @@ import img3 from "../../assets/images/ICON.png";
 
 function Home() {
   const { t } = useTranslation();
-  const slides = [ {
-    "src": img1,
-  },
-  {
-    "src": img2,
-  },
-  {
-    "src": img3,
-  }];
+
 
   return (
     <Grid
@@ -46,7 +35,7 @@ function Home() {
       }}
     >
 <div className="App">
-      <Carousel data={slides} />
+      <Carousel/>
     </div>
 <PageHeader weight={t("NavBar.Home.length")}>{t("NavBar.Home.title")}</PageHeader>
 <PageContent>{t("General.ComingSoon")} </PageContent>

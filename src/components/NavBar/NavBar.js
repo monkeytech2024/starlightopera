@@ -14,6 +14,8 @@ import './NavBar.css';
 import { useBetween } from "use-between";
 import { useTranslation} from "react-i18next";
 import {makeStyles} from "@mui/styles";
+
+
     const useStyles = makeStyles({
       activeStyle : {
         fontFamily: 'Zen Old Mincho',

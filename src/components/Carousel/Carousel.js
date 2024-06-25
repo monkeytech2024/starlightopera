@@ -11,27 +11,48 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import { useNavigate } from "react-router-dom";
 
-import img1 from '../../assets/images/banner.jpg';
-import img2 from '../../assets/images/ICON.png';
-import { boxClasses } from '@mui/system';
+import img1v from '../../assets/images/Banner/banner1v.png';
+import img1h from '../../assets/images/Banner/banner1h.png';
+import img2v from '../../assets/images/Banner/banner2v.png';
+import img2h from '../../assets/images/Banner/banner2h.png';
+import { boxClasses, Stack } from '@mui/system';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
-const images = [
+const imagev = [
   {
     label: '/home',
     imgPath:
-    img1,
+    img1v,
   },
   {
     label: '/contactus',
     imgPath:
-    img2,
+    img2v,
   },
   {
     label: '/collections',
     imgPath:
-    img1,
+    img1v,
+  },
+
+];
+
+const imageh = [
+  {
+    label: '/home',
+    imgPath:
+    img1h,
+  },
+  {
+    label: '/contactus',
+    imgPath:
+    img2h,
+  },
+  {
+    label: '/collections',
+    imgPath:
+    img1h,
   },
 
 ];
@@ -39,7 +60,7 @@ const images = [
 function SwipeableTextMobileStepper() {
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
-  const maxSteps = images.length;
+  const maxSteps = imagev.length;
 
   const handleNext = () => {
     setActiveStep((prevActiveStep) => prevActiveStep + 1);
@@ -61,14 +82,45 @@ function SwipeableTextMobileStepper() {
 
   return (
     <Box sx={{ maxWidth: "100vw", flexGrow: 1 }}>
-          
+      <Stack  direction = 'row' display= {{md:'flex', xs: 'none'}}  > 
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
-      >
-        {images.map((step, index) => (
+      >       
+        {imagev.map((step, index) => (
+          <div key={step.label}>
+            {Math.abs(activeStep - index) <= 2 ? (
+              <Box
+                component="img"
+                justifyContent = 'center'
+                sx={{
+                  height: "auto",
+                  display: 'block',
+                  maxWidth: '2000px',
+                  overflow: 'hidden',
+                  width: '100vw',
+                 
+                }}
+                src={step.imgPath}
+                alt={step.label}
+                onClick={() => gotToNewPage(step.label)}
+              />
+            ) : null}
+          </div>
+        ))}
+      </AutoPlaySwipeableViews>
+      </Stack>
+
+      <Stack  display= {{md:'none', xs: 'flex'}}> 
+      <AutoPlaySwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={activeStep}
+        onChangeIndex={handleStepChange}
+        enableMouseEvents
+      >       
+        {imageh.map((step, index) => (
           <div key={step.label}>
             {Math.abs(activeStep - index) <= 2 ? (
               <Box
@@ -88,6 +140,8 @@ function SwipeableTextMobileStepper() {
           </div>
         ))}
       </AutoPlaySwipeableViews>
+      </Stack>
+      
 
       <MobileStepper
         steps={maxSteps}
