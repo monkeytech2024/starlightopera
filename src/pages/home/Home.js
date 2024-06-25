@@ -7,7 +7,7 @@ import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';
 import Transition from '../../components/Transition/Transition';
 
-import {Carousel} from "../../components/Carousel/Carousel";
+import Carousel from "../../components/Carousel/Carousel";
 import img1 from "../../assets/images/banner.jpg";
 import img2 from "../../assets/images/banner.jpg";
 import img3 from "../../assets/images/ICON.png";

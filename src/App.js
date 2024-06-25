@@ -5,15 +5,19 @@ import {createTheme, ThemeProvider} from '@mui/material/styles';
 
 import Navbar from './components/NavBar/NavBar';
 
+
 import { AnimatePresence } from 'framer-motion';
 
-import Home from './pages/Home/Home'
-import AboutUs  from './pages/AboutUs/AboutUs';
-import News  from './pages/News/News';
-import PrevAct from './pages/PrevAct/PrevAct';
-import Gallery  from './pages/Gallery/Gallery';
-import Collections  from './pages/Collections/Collections';
-import ContactUs from './pages/ContactUs/ContactUs';
+
+
+import Home from './pages/home/Home'
+import AboutUs  from './pages/aboutus/aboutus';
+import News  from './pages/news/News';
+import PrevAct from './pages/Prevact/Prevact';
+import Gallery  from './pages/gallery/gallery';
+import Collections  from './pages/collections/collections';
+import ContactUs from './pages/Contactus/Contactus';
+
 
 
 import Footer from "./components/Footer/Footer";
