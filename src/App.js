@@ -5,84 +5,66 @@ import {createTheme, ThemeProvider} from '@mui/material/styles';
 
 import Navbar from './components/NavBar/NavBar';
 
-
 import { AnimatePresence } from 'framer-motion';
 
-
-
-import Home from './pages/home/Home'
-import AboutUs  from './pages/aboutus/aboutus';
-import News  from './pages/news/News';
-import PrevAct from './pages/Prevact/Prevact';
-import Gallery  from './pages/gallery/gallery';
-import Collections  from './pages/collections/collections';
-import ContactUs from './pages/Contactus/Contactus';
-
-
-
+import Home from './pages/Home/Home'
+import AboutUs  from './pages/AboutUs/AboutUs';
+import News  from './pages/News/News';
+import PrevAct from './pages/PrevAct/PrevAct';
+import Gallery  from './pages/Gallery/Gallery';
+import Collections  from './pages/Collections/Collections';
+import ContactUs from './pages/ContactUs/ContactUs';
 import Footer from "./components/Footer/Footer";
 import './App.css';
 
-
-
-
-
 const theme = createTheme({
-  typography: {
-    fontFamily: ['Zen Old Mincho','serif'].join(','),
-    h1: {
-      fontWeight: 700
-    },
-    h2: {
-      fontWeight: 700
-    },
-    h3: {
-      fontWeight: 700
-    },
-    h4: {
-      fontWeight: 700
-    },
-    h5: {
-      fontWeight: 700,
-    },
-    h6: {
-      fontWeight: 700,
-    },
-    h7: {
-      fontWeight: 700,
-    },
-    h8: {
-      fontWeight: 700,
-    }
-  },
   palette: {
     background:
     {
       main: "#F2E7E7",
-      navbar: "#F5F5F5"
+      navbar: "#F5F5F5",
+      
     },
     primary: {
       main: "#0F0F0F",
       red: "#FF0000",
       darkred:"#BB0000",
       black: "#0F0F0F",
-      grey: "#999292"
+      grey: "#999292",
+      white: "#ffffff",
 
     },
     mode: "light",
     action: {
       active: "#efc8b1",
     }
+  },
+  typography: {
+    fontFamily: ['Zen Old Mincho','serif'].join(','),
+    body1: {
+      fontWeight: 500,
+      color: "#0F0F0F",
+    },
+    body2: {
+      fontWeight: 400,
+      color: "#0F0F0F",
+    },
+    h1: {
+      fontWeight: 600,
+      color: "#0F0F0F",
+    },
+    h2: {
+      fontWeight: 400,
+      color: "#BB0000",
+    },
   }
+  
 });
 
-function App() {
-useEffect(()=>
+function App()
 {
-  document.title="Starlight Chinese Opera "
-},[]);
+  useEffect(()=>{document.title="Starlight Chinese Opera"},[]);
   return (
-    
     <>
     <ThemeProvider theme={theme}>
       <Navbar />
@@ -102,6 +84,4 @@ useEffect(()=>
       </ThemeProvider>
     </>
   );
-}
-
-export default App;
+}export default App;

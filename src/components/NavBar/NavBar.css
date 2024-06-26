@@ -8,7 +8,6 @@
     text-underline-offset: 0.8vh;
 }
 
-
 .navv:hover
 {
     color: #CC0000;
@@ -26,25 +25,16 @@
     text-underline-offset: 0.8vh;
 }
 
-@media screen and (max-width: 900px) {
-    .hamburger {
-        display: block;
-        z-index: 20;
-    }
-
-
-    .nav-menu {
+@media screen and (max-width: 900px) 
+{
+    .nav-menu 
+    {
         display: none;
-        position: absolute;
-        flex-direction: column;
-        height: 60vh;
-        top: 0;
-        transition: 0.9s ease-in-out;
     }
 
-    .active {
+    .active 
+    {
         display: flex;
-
     }
 
     .navv, .lang
@@ -56,16 +46,4 @@
         font-size: 1.8vh;
         text-underline-offset: 0.8vh;
     }
-
-
-    .hide {
-        display: none;
-    }
-
-}
-@media screen and (max-width: 495px) {
-    .nav-menu {
-        width: 75%;
-    }
-
 }

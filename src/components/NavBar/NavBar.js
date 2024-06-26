@@ -46,13 +46,14 @@ import {makeStyles} from "@mui/styles";
     {
       return useBetween(useFormState);
     }
- function Navbar() {
+ function Navbar() 
+ {
   const [nav, setNav] = useSharedFormState();
   const { t, i18n } = useTranslation();
-  const changeLng = (lang) => {
+  const changeLng = (lang) => 
+  {
     setNav(false);
         i18n.changeLanguage(lang);
-
     };
 
 
@@ -93,63 +94,50 @@ import {makeStyles} from "@mui/styles";
   const classes = useStyles();
 
   return (
-    <AppBar
-      className="navbar"
-      position="sticky"
-      color="default"
-      
+    <AppBar position="sticky" color="default" sx={{width: "100%", minHeight: getMinHeight(), bgcolor: "background.navbar"}}>
+      <Toolbar>
+        <Grid container alignItems="center" position="relative">
+          <Grid item md={0.125} xs={1}/>
+          <Grid item md={2.375} xs={10}>
+            <Stack direction="row" height= "5vh" spacing="0.5vw" alignItems="center" justifyContent={{md:"flex-start", xs:"center"}}>
+              <Stack direction="column" height="100%"  justifyContent="center">
+                <img height="95%" alt="Starlight Chinese Opera" src={ICON}/>
+              </Stack>
 
-      sx={{
-        margin:"0vh",
-        width: "100vw",
-        minHeight: getMinHeight(),
-        borderBottom: (theme) => `1px solid ${theme.palette.divider}`,
-        bgcolor: 'background.navbar',
-        fontWeight: 700
-      }}
-    >
-      <Toolbar >
-        <Grid  container alignItems="center"  position="relative" justifyContent="space-evenly">
-          <Grid item display={{md:"none", xs:"flex"}} xs={0.5}/>
-          <Grid item md={2.5} xs={10}>
-            <Grid container justifyContent={{md:"flex-start", xs:"center"}} >
-<Stack direction="row" height= "5vh">
-<img  height="100%" class="ICON"  alt="Starlight Chinese Opera" src={ICON}></img>
-
-      <Stack marginLeft="1vh" spacing="0vh" display="column">
-      <Typography  sx={{fontWeight:"600", fontSize: "2vh" }}>寶新聲戲曲演藝中心</Typography>
-      <Typography sx={{fontWeight:"500", fontSize: "1vh" }}>Starlight Chinese Opera Performing Art Centre</Typography>
-        </Stack>
-        
-        </Stack>
-            </Grid>
+              <Stack direction="column"> 
+                <Typography sx={{fontWeight:"600", fontSize:"2vh"}}>寶新聲戲曲演藝中心</Typography>
+                <Typography sx={{fontWeight:"500", fontSize:"1vh"}}>Starlight Chinese Opera Performing Art Centre</Typography>
+              </Stack>
+            </Stack>
           </Grid>
-          <Grid   marginTop={{md: "0vh",xs:"20vh"}} className={nav ? 'nav-menu active' : 'nav-menu'} item display={{md:"flex"}} md={7} justifyContent="center">
+          <Grid item md={0} xs={0.5} display={{md:"none", xs:"flex"}}>
+            {nav ? (<CloseIcon className="hamburger" onClick={handleNav} size={20} style={{color:"primary.black"}}/>) : (<MenuIcon className="hamburger" onClick={handleNav} style={{color:"primary.black"}} size={20}/>)}
+          </Grid>
+          <Grid item md={0} xs={0.5} display={{md:"none", xs:"flex"}}/>
+          <Grid item md={7} xs={12} marginTop={{md: "0vh", xs:"20vh"}} className={nav ? 'nav-menu active' : 'nav-menu'} justifyContent="center">
             <Stack spacing="15vh" justifyContent={"space-between"} direction={{xs:"column"}}>
-            <Stack direction={{md:"row", xs:"column"}} divider={<Divider orientation="vertical" flexItem />} spacing={{ md: "1vh", xs: "2vh" }}>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/home'>{t("NavBar.Home.title")}</NavLink></Stack>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/aboutus'>{t("NavBar.AboutUs.title")}</NavLink></Stack>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/news'>{t("NavBar.News.title")}</NavLink></Stack>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/prevact'>{t("NavBar.PrevAct.title")}</NavLink></Stack>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/gallery'>{t("NavBar.Gallery.title")}</NavLink></Stack>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/collections'>{t("NavBar.Collections.title")}</NavLink></Stack>
-              <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/contactus'>{t("NavBar.ContactUs.title")}</NavLink></Stack>
-
-            </Stack>              <Stack direction="row" display={{md:"none", xs:"flex"}} justifyContent={"center"} marginTop="20vh" spacing="1.5vh">
-          <NavLink className={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
-          <NavLink className={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink></Stack>
-</Stack>
+              <Stack direction={{md:"row", xs:"column"}} divider={<Divider orientation="vertical" flexItem/>} justifyContent="center" spacing={{md: "1vh", xs: "2vh"}}>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/home'>{t("NavBar.Home.title")}</NavLink></Stack>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/aboutus'>{t("NavBar.AboutUs.title")}</NavLink></Stack>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/news'>{t("NavBar.News.title")}</NavLink></Stack>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/prevact'>{t("NavBar.PrevAct.title")}</NavLink></Stack>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/gallery'>{t("NavBar.Gallery.title")}</NavLink></Stack>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/collections'>{t("NavBar.Collections.title")}</NavLink></Stack>
+                <Stack direction="row" justifyContent={"center"}><NavLink className="navv" onClick={() => handleClick()} to ='/contactus'>{t("NavBar.ContactUs.title")}</NavLink></Stack>
+              </Stack>              
+              <Stack direction="row" display={{md:"none", xs:"flex"}} justifyContent={"center"} spacing="1.5vh">
+                <NavLink className={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
+                <NavLink className={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink>
+              </Stack>
+            </Stack>
           </Grid>
-          <Grid item display={{md:"flex", xs:"none"}}  md={2.5} xs={0} sx={{display: { xs: 'none', md: 'flex' } }} justifyContent="flex-end">
-            <Stack direction="row"  marginTop="0.2vh" spacing="1.5vh">
-          <NavLink className={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
-          <NavLink className={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink></Stack></Grid>
-          <Grid display={{md:"none", xs:"flex"}} item  xs={0.5}>
-            
-          {nav ? (<CloseIcon className="hamburger" onClick={handleNav} size={20} style={{ color: 'primary.black' }} />) : (<MenuIcon className="hamburger" onClick={handleNav} style={{ color: 'primary.black' }} size={20} />)}
-</Grid>
-     
-          
+          <Grid item md={2.375} xs={0} display={{md:"flex", xs:"none"}} justifyContent="flex-end">
+            <Stack direction="row" spacing="1.5vh">
+              <NavLink className={styles("en")} onClick={() => changeLng("en")}>{t("NavBar.language-en")}</NavLink>
+              <NavLink className={styles("zh")} onClick={() => changeLng("zh")}>{t("NavBar.language-zh")}</NavLink>
+            </Stack>
+          </Grid>
+          <Grid item md={0.125} xs={0} display={{md:"flex", xs:"none"}}/>
         </Grid>
       </Toolbar>
     </AppBar>

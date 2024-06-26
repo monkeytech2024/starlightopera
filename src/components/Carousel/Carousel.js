@@ -11,48 +11,39 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import { useNavigate } from "react-router-dom";
 
-import img1v from '../../assets/images/Banner/banner1v.png';
-import img1h from '../../assets/images/Banner/banner1h.png';
-import img2v from '../../assets/images/Banner/banner2v.png';
-import img2h from '../../assets/images/Banner/banner2h.png';
+import WebBanner1 from '../../assets/images/Banner/web/banner1.png';
+import MobileBanner1 from '../../assets/images/Banner/mobile/banner1.png';
 import { boxClasses, Stack } from '@mui/system';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const imagev = [
   {
-    label: '/home',
-    imgPath:
-    img1v,
+    label: '/aboutus',
+    imgPath: WebBanner1,
   },
   {
     label: '/contactus',
-    imgPath:
-    img2v,
+    imgPath: WebBanner1,
   },
   {
     label: '/collections',
-    imgPath:
-    img1v,
+    imgPath: WebBanner1,
   },
-
 ];
 
 const imageh = [
   {
-    label: '/home',
-    imgPath:
-    img1h,
+    label: '/aboutus',
+    imgPath: MobileBanner1,
   },
   {
     label: '/contactus',
-    imgPath:
-    img2h,
+    imgPath: MobileBanner1,
   },
   {
     label: '/collections',
-    imgPath:
-    img1h,
+    imgPath: MobileBanner1,
   },
 
 ];
@@ -81,39 +72,54 @@ function SwipeableTextMobileStepper() {
   }
 
   return (
-    <Box sx={{ maxWidth: "100vw", flexGrow: 1 }}>
-      <Stack  direction = 'row' display= {{md:'flex', xs: 'none'}}  > 
+    <Stack direction="row" justifyContent="center"  sx={{width: "100%", flexGrow: 1 }}>
+
+      <Stack direction="column" width= {{md:(94*16/9)+"vh", xs:"100%"}}  justifyContent={"center"}   > 
+      <Stack direction="column" display={{md:"flex", xs:"none"}} width="100%" height="auto">
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
         onChangeIndex={handleStepChange}
         enableMouseEvents
-      >       
-        {imagev.map((step, index) => (
-          <div key={step.label}>
-            {Math.abs(activeStep - index) <= 2 ? (
-              <Box
-                component="img"
-                justifyContent = 'center'
-                sx={{
-                  height: "auto",
-                  display: 'block',
-                  maxWidth: '2000px',
-                  overflow: 'hidden',
-                  width: '100vw',
-                 
-                }}
+        sx={{justifyContent: "center"}}> 
+  
+         {imagev.map((step, index) => (
+        <div key={step.label}>
+          {Math.abs(activeStep - index) <= 2 ? (
+            <Box component="img"justifyContent = 'center' sx={{height: "auto", display: 'block', width: "100%", overflow: 'hidden',}}
                 src={step.imgPath}
                 alt={step.label}
                 onClick={() => gotToNewPage(step.label)}
-              />
+            />
             ) : null}
           </div>
-        ))}
+        ))}            
       </AutoPlaySwipeableViews>
+      <MobileStepper steps={maxSteps}
+       
+        activeStep={activeStep}
+        sx={{
+          justifyContent:"center",
+          position:"absolute",
+          top:"95vh",
+          zIndex:"5",
+          width:"100%",
+          bgcolor: 'transparent',
+          "& .MuiMobileStepper-dot": {
+            backgroundColor: "primary.white",
+            height: "1.5vh",
+            margin: "1vh",
+            width: "1.5vh",
+          },
+          "& .MuiMobileStepper-dotActive": {
+            backgroundColor: "primary.red"
+          }
+        }}
+      />
       </Stack>
 
-      <Stack  display= {{md:'none', xs: 'flex'}}> 
+
+      <Stack direction="column" display={{md:"none", xs:"flex"}} width="100%" height="auto">
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
@@ -126,11 +132,10 @@ function SwipeableTextMobileStepper() {
               <Box
                 component="img"
                 sx={{
-                  height: "80vh",
+                  
                   display: 'block',
-                  maxWidth: "100vw",
                   overflow: 'hidden',
-                  width: '100vw',
+                  width: "100%",
                 }}
                 src={step.imgPath}
                 alt={step.label}
@@ -140,42 +145,52 @@ function SwipeableTextMobileStepper() {
           </div>
         ))}
       </AutoPlaySwipeableViews>
-      </Stack>
-      
-
-      <MobileStepper
-        steps={maxSteps}
-        position="static"
+      <MobileStepper steps={maxSteps}
+       
         activeStep={activeStep}
-        nextButton={
-          <Button
-            size="small"
-            onClick={handleNext}
-            disabled={activeStep === maxSteps - 1}
-          >
-            {theme.direction === 'rtl' ? (
-              <KeyboardArrowLeft />
-            ) : (
-              <KeyboardArrowRight />
-            )}
-          </Button>
-        }
-        backButton={
-          <Button size="small" onClick={handleBack} disabled={activeStep === 0}>
-            {theme.direction === 'rtl' ? (
-              <KeyboardArrowRight />
-            ) : (
-              <KeyboardArrowLeft />
-            )}
-          </Button>
-        }
+        sx={{
+          justifyContent:"center",
+          position:"absolute",
+          top:"100vh",
+          zIndex:"5",
+          width:"100%",
+          bgcolor: 'transparent',
+          "& .MuiMobileStepper-dot": {
+            backgroundColor: "primary.white",
+            height: "1.5vh",
+            margin: "1vh",
+            width: "1.5vh",
+          },
+          "& .MuiMobileStepper-dotActive": {
+            backgroundColor: "primary.red"
+          }
+        }}
       />
-    </Box>
+      </Stack>
+
+
+      
+      <Stack zIndex={5} display={{md:"flex", xs:"none"}} direction="row" height="10vh" width="3vw" position="relative"  top="-52.5vh" >
+        <Button  sx={{bgcolor:"#0f0f0f", opacity:"20%"}} onClick={handleBack} disabled={activeStep === 0}>
+          {theme.direction === 'rtl' ? (<KeyboardArrowRight color='primary.white' />) : (<KeyboardArrowLeft sx={{color:"#ffffff"}}/>)}
+        </Button>
+        </Stack>
+        <Stack display={{md:"flex", xs:"none"}} direction="row-reverse" height="10vh"position="relative"  top="-62.5vh" >
+        <Button zIndex={5} sx={{bgcolor:"#0f0f0f", opacity:"20%"}} onClick={handleNext} disabled={activeStep === maxSteps - 1}>
+          {theme.direction === 'rtl' ? (<KeyboardArrowLeft color='primary.white' />) : (<KeyboardArrowRight sx={{color:"#ffffff"}} />)}
+        </Button>
+      </Stack>
+
+    
+
+      </Stack>
+
+  
+     
+    </Stack>
          
 
-            
-    
-    
+
   );
 }
 
