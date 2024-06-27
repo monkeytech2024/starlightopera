@@ -38,14 +38,14 @@ function Contactus ()
             </Stack>
           </Grid>
           <Grid item lg={7.5} md={12} xs={12} marginTop={5} minHeight={{lg:"40vw", md:"90vw", xs:"100vw"}}>
-            <Stack direction="row" height="100%" justifyContent={{lg:"flex-end", md:"center", xs:"center"}}>
+            <Stack direction="row" width="100%"height="100%" justifyContent={{lg:"flex-end", md:"center", xs:"center"}}>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2874.9878966608203!2d-79.43069!3d43.8975174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d7297a6aaaa9%3A0x72cf86215e2e6256!2sStarlight%20Chinese%20Opera!5e0!3m2!1sen!2sca!4v1719114581717!5m2!1sen!2sca" width="90%" height="90%" frameBorder={0} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"/>
             </Stack>
           </Grid>
         </Grid>   
         <Typography variant="h2" fontSize={{lg:"2.3rem", md:"2.3rem", xs:"2rem"}} sx={{textDecoration:"underline", textUnderlineOffset:"1.25vh"}} >{t("ContactUs.SupportUs")}&nbsp;&nbsp;</Typography>
         <Grid container direction={{lg:"row", md:"column-reverse", xs:"column-reverse"}} marginTop={5}>
-          <Grid item lg={6} md={12} xs={12} minHeight={{lg:"30vw", md:"40vh", xs:"75vh"}} >
+          <Grid item lg={6} md={12} xs={12} minHeight={{lg:"35vw", md:"40vh", xs:"75vh"}} >
             <Stack direction="row"spacing={2}>
               <Typography variant="body1" fontSize={{lg:"1.2rem", md:"1.2rem", xs:"1rem"}}>{t("ContactUs.SupportText")} </Typography>
             </Stack>
