@@ -5,7 +5,7 @@ const PageContent = ({ children }) =>
 {
   return (
     <Stack direction="row" marginTop={"20vh"} alignItems="center" width="100%" justifyContent="center">
-      <Typography fontWeight="500" color="primary.grey" fontSize={{md:"2vw", xs:"8vw"}}>{children}</Typography>
+      <Typography fontWeight="500" color="primary.grey" fontSize={{lg:"2vw", md:"4vw", xs:"8vw"}}>{children}</Typography>
     </Stack>
   );
 }; 

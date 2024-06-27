@@ -3,14 +3,14 @@ import {Divider, Chip,Stack, Grid,Typography} from "@mui/material";
 const MedHeader = ({children, weight}) => 
 {
   return (
-    <Stack direction="row" marginTop={"6vh"}alignItems="center" justifyContent="center">
-      <Stack width={{md:(30 - weight)/2 + "vw", xs:(80 - weight*3)/2 +"vw"}}>
+    <Stack direction="row" marginTop={{lg:"6vh", md: "4vh", xs: "4vh"}} alignItems="center" justifyContent="center">
+      <Stack width={{lg:(30 - weight)/2 + "vw", md:(80 - weight*3)/2 +"vw", xs:(80 - weight*3)/2 +"vw"}}>
         <Divider sx={{backgroundColor: "primary.darkred", width:"100%", height: "1.5px"}}/>
       </Stack>
-      <Stack width={{md:weight+1+ "vw", xs: weight*3 +2+ "vw"}} direction="row" justifyContent="center">
-        <Typography  fontWeight={{md:"400", xs:"500"}} color="primary.darkred" fontSize={{md:"1.3vw", xs:"4vw"}}>{children}</Typography>
+      <Stack width={{lg:weight + 1 + "vw", md: weight*3 +2 + "vw", xs: weight*3 +2+ "vw"}} direction="row" justifyContent="center">
+        <Typography  fontWeight={{lg:"400", md:"500", xs:"500"}} color="primary.darkred" fontSize={{lg:"1.3vw", md:"3vw", xs:"4vw"}}>{children}</Typography>
       </Stack>
-      <Stack width={{md:(30 - weight)/2 + "vw", xs:(80- weight*3)/2 + "vw"}}>
+      <Stack width={{lg:(30 - weight)/2 + "vw", md:(80 - weight*3)/2 +"vw", xs:(80 - weight*3)/2 +"vw"}}>
         <Divider sx={{backgroundColor: "primary.darkred", width:"100%",height:"1.5px"}}/>
       </Stack>
     </Stack>
