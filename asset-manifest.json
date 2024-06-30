@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/starlightopera/static/css/main.65883b72.css",
-    "main.js": "/starlightopera/static/js/main.c6fb4032.js",
+    "main.js": "/starlightopera/static/js/main.c65bda3b.js",
     "static/js/453.b44614b6.chunk.js": "/starlightopera/static/js/453.b44614b6.chunk.js",
     "static/media/banner1.png": "/starlightopera/static/media/banner1.f27793f9f2a58c68cede.png",
-    "static/media/SupportUs.jpg": "/starlightopera/static/media/SupportUs.1a2ec22f0cb1bd0867cd.jpg",
     "static/media/transition.png": "/starlightopera/static/media/transition.7fec5ab696d3be5f8283.png",
+    "static/media/SupportUs.jpg": "/starlightopera/static/media/SupportUs.919f0da2e6adf714fe43.jpg",
     "static/media/Paypal.png": "/starlightopera/static/media/Paypal.38bbf2d1ca04593fa07a.png",
     "static/media/ICON.png": "/starlightopera/static/media/ICON.400b0abba3da529163db.png",
     "static/media/Interac.png": "/starlightopera/static/media/Interac.c0ee12401110ac4e4e44.png",
     "index.html": "/starlightopera/index.html",
     "static/media/getFetch.cjs": "/starlightopera/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.65883b72.css.map": "/starlightopera/static/css/main.65883b72.css.map",
-    "main.c6fb4032.js.map": "/starlightopera/static/js/main.c6fb4032.js.map",
+    "main.c65bda3b.js.map": "/starlightopera/static/js/main.c65bda3b.js.map",
     "453.b44614b6.chunk.js.map": "/starlightopera/static/js/453.b44614b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65883b72.css",
-    "static/js/main.c6fb4032.js"
+    "static/js/main.c65bda3b.js"
   ]
 }
