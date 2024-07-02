@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/starlightopera/static/css/main.65883b72.css",
-    "main.js": "/starlightopera/static/js/main.c65bda3b.js",
-    "static/js/453.b44614b6.chunk.js": "/starlightopera/static/js/453.b44614b6.chunk.js",
-    "static/media/banner1.png": "/starlightopera/static/media/banner1.f27793f9f2a58c68cede.png",
-    "static/media/transition.png": "/starlightopera/static/media/transition.7fec5ab696d3be5f8283.png",
-    "static/media/SupportUs.jpg": "/starlightopera/static/media/SupportUs.919f0da2e6adf714fe43.jpg",
-    "static/media/Paypal.png": "/starlightopera/static/media/Paypal.38bbf2d1ca04593fa07a.png",
-    "static/media/ICON.png": "/starlightopera/static/media/ICON.400b0abba3da529163db.png",
-    "static/media/Interac.png": "/starlightopera/static/media/Interac.c0ee12401110ac4e4e44.png",
-    "index.html": "/starlightopera/index.html",
-    "static/media/getFetch.cjs": "/starlightopera/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.65883b72.css.map": "/starlightopera/static/css/main.65883b72.css.map",
-    "main.c65bda3b.js.map": "/starlightopera/static/js/main.c65bda3b.js.map",
-    "453.b44614b6.chunk.js.map": "/starlightopera/static/js/453.b44614b6.chunk.js.map"
+    "main.css": "/static/css/main.7a59c8f9.css",
+    "main.js": "/static/js/main.5002da00.js",
+    "static/js/453.b44614b6.chunk.js": "/static/js/453.b44614b6.chunk.js",
+    "static/media/banner1.png": "/static/media/banner1.f27793f9f2a58c68cede.png",
+    "static/media/transition.png": "/static/media/transition.7fec5ab696d3be5f8283.png",
+    "static/media/SupportUs.jpg": "/static/media/SupportUs.919f0da2e6adf714fe43.jpg",
+    "static/media/Paypal.png": "/static/media/Paypal.38bbf2d1ca04593fa07a.png",
+    "static/media/ICON.png": "/static/media/ICON.400b0abba3da529163db.png",
+    "static/media/Interac.png": "/static/media/Interac.c0ee12401110ac4e4e44.png",
+    "index.html": "/index.html",
+    "static/media/getFetch.cjs": "/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
+    "main.7a59c8f9.css.map": "/static/css/main.7a59c8f9.css.map",
+    "main.5002da00.js.map": "/static/js/main.5002da00.js.map",
+    "453.b44614b6.chunk.js.map": "/static/js/453.b44614b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65883b72.css",
-    "static/js/main.c65bda3b.js"
+    "static/css/main.7a59c8f9.css",
+    "static/js/main.5002da00.js"
   ]
 }
