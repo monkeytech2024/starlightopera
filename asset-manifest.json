@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/starlightopera/static/css/main.5fb59e96.css",
-    "main.js": "/starlightopera/static/js/main.fe8394ec.js",
+    "main.js": "/starlightopera/static/js/main.10771f15.js",
     "static/js/453.b44614b6.chunk.js": "/starlightopera/static/js/453.b44614b6.chunk.js",
-    "static/media/banner1.png": "/starlightopera/static/media/banner1.302c374f9ec641c3c333.png",
+    "static/media/banner1.png": "/starlightopera/static/media/banner1.478a30470ca28e886deb.png",
     "static/media/transition.png": "/starlightopera/static/media/transition.7fec5ab696d3be5f8283.png",
+    "static/media/banner3.png": "/starlightopera/static/media/banner3.19aa18814ff163defb2b.png",
     "static/media/Paypal_Desktop.png": "/starlightopera/static/media/Paypal_Desktop.8c95afb0d4ffe8209cc6.png",
     "static/media/SupportUs.jpg": "/starlightopera/static/media/SupportUs.ac3ba429d18f9d72b7aa.jpg",
     "static/media/Paypal.png": "/starlightopera/static/media/Paypal.38bbf2d1ca04593fa07a.png",
@@ -13,11 +14,11 @@
     "index.html": "/starlightopera/index.html",
     "static/media/getFetch.cjs": "/starlightopera/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "main.5fb59e96.css.map": "/starlightopera/static/css/main.5fb59e96.css.map",
-    "main.fe8394ec.js.map": "/starlightopera/static/js/main.fe8394ec.js.map",
+    "main.10771f15.js.map": "/starlightopera/static/js/main.10771f15.js.map",
     "453.b44614b6.chunk.js.map": "/starlightopera/static/js/453.b44614b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5fb59e96.css",
-    "static/js/main.fe8394ec.js"
+    "static/js/main.10771f15.js"
   ]
 }
