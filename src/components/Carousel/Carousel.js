@@ -13,42 +13,31 @@ import { useNavigate } from "react-router-dom";
 
 import WebBanner1 from '../../assets/images/Banner/web/banner1.png';
 import MobileBanner1 from '../../assets/images/Banner/mobile/banner1.png';
+import MobileBanner3 from '../../assets/images/Banner/mobile/banner3.png';
 import { boxClasses, Stack } from '@mui/system';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const imagev = [
   {
-    label: '/aboutus',
-    imgPath: WebBanner1,
-  },
-  {
-    label: '/contactus',
-    imgPath: WebBanner1,
-  },
-  {
-    label: '/collections',
+    label: '/event/7',
     imgPath: WebBanner1,
   },
 ];
 
 const imageh = [
   {
-    label: '/aboutus',
+    label: '/event/7',
     imgPath: MobileBanner1,
   },
   {
-    label: '/contactus',
-    imgPath: MobileBanner1,
+    label: '/event/7',
+    imgPath: MobileBanner3,
   },
-  {
-    label: '/collections',
-    imgPath: MobileBanner1,
-  },
-
 ];
 
 function SwipeableTextMobileStepper() {
+  console.log(window.innerHeight);
   const theme = useTheme();
   const [activeStep, setActiveStep] = React.useState(0);
   const maxSteps = imagev.length;
@@ -75,7 +64,7 @@ function SwipeableTextMobileStepper() {
     <Stack direction="row" justifyContent="center"  sx={{width: "100%", flexGrow: 1 }}>
 
       <Stack direction="column" width= {{lg:(94*16/9)+"vh", md:"100%"}}  justifyContent={"center"}   > 
-      <Stack direction="column" display={{lg:"flex", md:"none", xs:"none"}} width="100%" height="auto">
+      <Stack direction="column" display={{lg:"flex", md:"none", xs:"none"}} width="100%" >
       <AutoPlaySwipeableViews
         axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
         index={activeStep}
@@ -148,7 +137,7 @@ function SwipeableTextMobileStepper() {
         ))}
       </AutoPlaySwipeableViews>
       <Stack direction="row" justifyContent="center">
-      <MobileStepper steps={maxSteps}
+      <MobileStepper steps={2}
        
         activeStep={activeStep}
         sx={{
@@ -174,12 +163,12 @@ function SwipeableTextMobileStepper() {
 
 <Stack direction="row" width="100%" justifyContent="space-between">
       
-      <Box  display={{lg:"flex", md:"none", xs:"none"}} direction="row" height="10vw"  position="relative" top="-55vh" >
+      <Box  display={{lg:"flex", md:"none", xs:"none"}} direction="row" height="5vw"  position="relative" top="-55vh" >
         <Button  zIndex={5} sx={{bgcolor:"#0f0f0f", opacity:"20%"}} onClick={handleBack} disabled={activeStep === 0}>
           {theme.direction === 'rtl' ? (<KeyboardArrowRight color='primary.white' />) : (<KeyboardArrowLeft sx={{color:"#ffffff"}}/>)}
         </Button>
         </Box>
-        <Box display={{lg:"flex", md:"none" , xs:"none"}} direction="row-reverse" height="10vw" position="relative" top="-55vh" >
+        <Box display={{lg:"flex", md:"none" , xs:"none"}} direction="row-reverse" height="5vw" position="relative" top="-55vh" >
         <Button zIndex={5} sx={{bgcolor:"#0f0f0f", opacity:"20%"}} onClick={handleNext} disabled={activeStep === maxSteps - 1}>
           {theme.direction === 'rtl' ? (<KeyboardArrowLeft color='primary.white' />) : (<KeyboardArrowRight sx={{color:"#ffffff"}} />)}
         </Button>

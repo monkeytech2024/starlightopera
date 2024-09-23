@@ -1,10 +1,10 @@
 .navv, .lang
 {
-    font-family: 'Zen Old Mincho';
+    font-family: "Noto Serif HK", serif;
     text-decoration: none;
     color: black;
     font-weight: 500;
-    font-size: 1.5vh;
+    font-size: 1.1vw;
     text-underline-offset: 0.8vh;
 }
 
@@ -22,10 +22,10 @@
 {
     color: #CC0000;
     text-decoration: underline;
-    text-underline-offset: 0.8vh;
+    text-underline-offset: 10px;
 }
 
-@media screen and (max-width: 1200px) 
+@media screen and (max-width: 1535px) 
 {
     .nav-menu 
     {
@@ -39,11 +39,11 @@
 
     .navv, .lang
     {
-        font-family: 'Zen Old Mincho';
+        font-family: "Noto Serif HK", serif;
         text-decoration: none;
         color: black;
         font-weight: 500;
-        font-size: 1.8vh;
-        text-underline-offset: 0.8vh;
+        font-size: 18px;
+        text-underline-offset: 10px;
     }
 }

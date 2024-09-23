@@ -2,7 +2,7 @@
 import { useTranslation } from 'react-i18next';
 import Transition from '../../components/Transition/Transition';
 import React from 'react'
-import {Fade, Stack, Grid} from "@mui/material";
+import {Fade, Stack} from "@mui/material";
 import {} from "@mui/material";
 import PageHeader from '../../components/PageHeader/PageHeader';
 import PageContent from '../../components/PageContent/PageContent';

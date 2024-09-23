@@ -23,7 +23,7 @@ export default function ContactItem(props) {
 
   return (
     <Link href={props.dest} target="_blank" sx={{outline: 'none'}}>
-      <Avatar className={classes.outer} sx={{ height:"3.5vh", width:"3.5vh", position: "static", bgcolor: "#ffffff" }}>
+      <Avatar className={classes.outer} sx={{ height:{lg:"2vw", md:"5vw", xs:"10vw"}, width:{lg:"2vw", md:"5vw", xs:"10vw"}, position: "static", bgcolor: "#ffffff" }}>
         {props.icon}
       </Avatar>
     </Link>

@@ -3,40 +3,103 @@
         "Home" : 
         {
             "title": "主頁",
-            "length": 3
+            "length": 4
         },
         "AboutUs": 
         {
             "title": "關於我們",
-            "length": 6
+            "length": 7.5
         },
         "News":    
         {
             "title": "最新消息",
-            "length": 6
+            "length": 7.5
         },
         "PrevAct":
         {
-            "title": "過往演出及活動",
-            "length": 10
+            "title": "過往活動",
+            "length": 7.5
         },
         "Gallery": 
         {
             "title": "活動花絮",
-            "length": 6
+            "length": 7.5
         },
         "Collections":
         {
             "title": "藏品",
-            "length": 3
+            "length": 4
         },
         "ContactUs":         
         {
-            "title": "聯絡及支持",
+            "title": "聯絡我們",
+            "length": 7.5
+        },
+        "SupportUs":         
+        {
+            "title": "支持我們",
+            "length": 7.5
+        },
+        "Error":
+        {
+            "title": "404 找不到網頁",
+            "length": 13
+        },
+        "Intro":
+        {
+            "title": "願景和使命",
+            "length": 9
+        },
+        "Theatre":
+        {
+            "title": "劇場製作",
+            "length": 7
+        },
+        "Training":
+        {
+            "title": "興趣班",
+            "length": 6
+        },
+        "CommunityService":
+        {
+            "title": "社區服務",
             "length": 7
         },
         "language-zh" : "繁體中文",
         "language-en" : "ENG"
+    },
+    "Intro":
+    {
+        "IntroText": "寶新聲作為一個非牟利組織，旨在向加拿大的年輕一代及其他族裔介紹粵劇。我們期望為加國土生的及新移民的華裔提供探索和欣賞中國傳統粵劇文化的機會，使這門獨特的中國表演藝術在加拿大得以承傳，而且延續推廣至主流的使命。自成立以來，寶新聲每年都會舉辦週年劇場匯演、工作坊及其他具教育性質的推廣活動。"
+    },
+    "Hightlights":
+    {
+        "highlight1":
+        {
+            "title": "劇場製作",
+            "item1": "小劇場演出",
+            "item2": "年度匯演"
+        },
+        "highlight2":
+        {
+            "title": "興趣班",
+            "item1": "成人集體及個別班",
+            "item2": "粵劇小豆丁"
+        },
+        "highlight3":
+        {
+            "title": "社區服務",
+            "item1": "義務敬老演出",
+            "item2": "粵劇工作",
+            "item3": "慈善籌款演出"
+        },
+        "highlight4":
+        {
+            "title": "藏品",
+            "item1": "戲服",
+            "item2": "頭飾",
+            "item3": "道具"
+        }
     },
     "ContactUs":
     {
@@ -44,18 +107,110 @@
         "SupportUs": "支持我們",
         "Contact": "聯絡資料",
         "SupportSlogan": "您的支持能夠協助粵劇在加拿大推廣和發展！",
-        "SupportText": "作為一個致力於在加拿大保存及推廣傳統中國戲曲給新一代和大眾的非營利組織，我們誠摯地呼籲大眾慷慨贊助我們。中國戲曲作為中華文化的重要組成部分，擁有悠久的歷史和深厚的藝術底蘊。我們的使命是透過舉辦表演、教育活動和社區項目，傳承和弘揚這項寶貴的藝術遺產。您的支持能夠肯定我們的努力，幫助我們擴大影響力，讓更多對中國戲曲有興趣的公眾能夠體驗和欣賞到這獨特而精彩的文化藝術。感謝您慷慨的支持！",
-        "Method-1": "支持方法一：",
-        "Method-1-Title": "E-transfer",
+        "SupportText": "作為一個致力於在加拿大保存及推廣傳統中國戲曲給新一代和大眾的非牟利組織，我們誠摯地呼籲大家慷慨贊助我們。中國戲曲作為中華文化的重要組成部分，擁有悠久的歷史和深厚的藝術底蘊。我們的使命是透過舉辦表演、教育活動和社區項目，傳承和弘揚這項寶貴的藝術遺產。您的支持能夠肯定我們的努力，幫助我們擴大影響力，讓更多對中國戲曲有興趣的公眾能夠體驗和欣賞到這獨特而精彩的文化藝術。衷心感謝您的支持！",
+        "Method-1": "支持方法一：E-transfer",
         "Method-1-Step1":"1. 登入你的網上銀行或手機銀行應用程式。",
         "Method-1-Step2":"2. 輸入 「info@starlightopera.com」 作為收款人電郵地址。",
         "Method-1-Step3":"3. 輸入支持款項。",
-        "Method-2": "支持方法二：",
-        "Method-2-Title": "PayPal",
+        "Method-2": "支持方法二：PayPal",
         "Method-2-Step1":"1. 登入 Paypal帳戶並前往「付款和要求付款」。",
         "Method-2-Step2":"2. 輸入「info@starlightopera.com」作為收款人電子郵件地址或手機號碼，然後按一下「下一步」。",
         "Method-2-Step3":"3. 輸入金額和想使用的付款方式，然後按一下「下一步」。",
-        "Method-2-Step4":"4. 檢視資料，然後按一下「立即付款」。"
+        "Method-2-Step4":"4. 檢視資料，然後按一下「立即付款」。",
+        "SupportNow": "立即支持!"
+    },
+    "News":
+    {
+        "news1":
+        {
+            "title": "士嘉堡中心農歷新年賀歲演出",
+            "date": "2024年2月3日 - 2024年2月4日"
+        },
+        "news2":
+        {
+            "title": "約克大學中華文化日2024 - 粵劇表演",
+            "date": "2024年2月15日"
+        },
+        "news3":
+        {
+            "title": "孟嘗敬老賀年演出",
+            "date": "2024年2月19日"
+        },
+        "news4":
+        {
+            "title": "《霸王別姬 聲•色•藝》",
+            "date": "2024年5月11日"
+        },
+        "news5":
+        {
+            "title": "萬錦市第22旅童軍 - 粵劇工作坊",
+            "date": "2024年5月31日"
+        },
+        "news6":
+        {
+            "title": "加國比較文學週年會議 2024 - 粵劇示範表演",
+             "date": "2024年6月15日"
+        },
+        "news7":
+        {
+            "title": "聲輝戲曲耀梨園2024",
+             "date": "2024年7月21日"
+        }
+    },
+    "Events":
+    {
+        "event1":
+        {
+            "date": "2024年2月3日 (星期六) - 2024年2月4日(星期日)",
+            "venue":"Centre Court, Scarborough Town Centre",
+            "time": "下午2時 - 下午3時",
+            "ticket":""
+        },
+        "event2":
+        {
+            "date": "2024年2月15日 (星期四)",
+            "venue": "Founders Assembly Hall (FC 152), York University",
+            "time": "上午11時 - 下午2時30分",
+            "ticket":""
+
+        },
+        "event3":
+        {
+            "date": "2024年2月19日 (星期一)",
+            "venue":"",
+            "time": "下午2時",
+            "ticket":""
+        },
+        "event4":
+        {
+            "date": "2024年5月11日 (星期六)",
+            "venue": "Innis Town Hall (Innis College, 2 Sussex Ave, Toronto, ON M5S 1J5)",
+            "time": "下午2時30分 (表演時長1小時)",
+            "ticket":"免費入場 (請於表演開始前15分鐘以便安排入座)"
+        },
+        "event5":
+        {
+            "date": "2024年5月31日 (星期五)",
+            "venue": "Pierre Elliott Trudeau High School, 90 Bur Oak Ave, Markham, ON L6C 2E6",
+            "time": "",
+            "ticket": ""
+        },
+        "event6":
+        {
+             "date": "2024年6月15日 (星期六)",
+             "venue": "Room C-3061, at the Carrefour des arts et des sciences, Faculté des arts et des sciences, Pavillon Lionel-Groulx at 3150, rue Jean-Brillant, Montréal",
+             "time": "下午3時30分 - 下午5時",
+             "ticket": ""
+        },
+        "event7":
+        {
+             "date": "2024年7月21日 (星期日)",
+             "venue": "Flato Markham Theatre (171 Town Centre Blvd, Markham, ON L3R 8G5)",
+             "time": "下午1時30分 - 下午4時",
+             "ticket": "VIP: $100 / General: $60"
+        },
+        "BuyTickets-prefix":"按此",
+        "BuyTickets-suffix":"購票"
     },
     "Footer":
     {
@@ -64,7 +219,19 @@
         "Copyright-suffix": " 寶新聲戲曲演藝中心"
         
     },
-    "General" :{ "ComingSoon" : "即將推出"
-}
+    "Event":
+    {
+        "date": "日期",
+        "venue": "地點",
+        "time": "時間",
+        "ticket": "票價"
+    },
+    "General":
+    {   "Error": "對不起！我們找不到這個頁面。",
+        "ComingSoon" : "即將推出",
+        "LearnMore" : "了解更多",
+        "Back": "< 返回",
+        "RelatedLink": "相關連結"
+    }
 
 }

@@ -10,7 +10,7 @@ function PrevAct()
 {
   const {t} = useTranslation();
   return (
-    <Stack direction="row" sx={{justifyContent:"center", minHeight:"65vh", backgroundColor:"background.main"}}>
+    <Stack direction="row" sx={{justifyContent:"center", minHeight:"65.5vh", backgroundColor:"background.main"}}>
       <Fade in={true} timeout={2000}>
         <Stack direction="column" height="100%" width={{md:"75%", xs:"100%"}}>
           <PageHeader weight={t("NavBar.PrevAct.length")}>{t("NavBar.PrevAct.title")}</PageHeader>

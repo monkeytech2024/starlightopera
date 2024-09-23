@@ -1,0 +1,14 @@
+.backclass
+{
+    font-family: 'Zen Old Mincho';
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 2vh;
+    text-underline-offset: 0.8vh;
+}
+
+.back:hover
+{
+    color: #CC0000;
+}

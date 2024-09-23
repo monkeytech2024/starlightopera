@@ -1,5 +1,6 @@
 {
-    "NavBar" :{ 
+    "NavBar" :
+    { 
         "Home" : 
         {
             "title": "Home",
@@ -8,35 +9,98 @@
         "AboutUs": 
         {
             "title": "About Us",
-            "length": 6
+            "length": 8
         },
         "News":    
         {
             "title": "News",
-            "length": 4
+            "length": 5
         },
         "PrevAct":
         {
-            "title": "Previous Performances and Activities",
-            "length": 22
+            "title": "Previous Activities",
+            "length": 17
         },
         "Gallery": 
         {
             "title": "Gallery",
-            "length": 5
+            "length": 7
         },
         "Collections":
         {
             "title": "Collections",
-            "length": 7
+            "length": 10
         },
         "ContactUs":         
         {
-            "title": "Contact and Support",
+            "title": "Contact Us",
+            "length": 10
+        },
+        "SupportUs":         
+        {
+            "title": "Support Us",
+            "length": 10
+        },
+        "Error":
+        {
+            "title": "404 Not Found",
+            "length": 8
+        },
+        "Intro":
+        {
+            "title": "Vision & Mission",
+            "length": 16
+        },
+        "Theatre":
+        {
+            "title": "Theatre Productions",
             "length": 13
+        },
+        "Training":
+        {
+            "title": "Training Classes",
+            "length": 11
+        },
+        "CommunityService":
+        {
+            "title": "Community Services",
+            "length": 12
         },
         "language-zh" : "繁體中文",
         "language-en" : "ENG"
+    },
+    "Intro":
+    {
+        "IntroText": "Starlight Chinese Opera is a non-profit organization with the goal of introducing Cantonese Opera to the younger generation and the public in Canada. The organization aims to provide Canadian-born Chinese and new Chinese immigrants with the opportunity to explore and appreciate their own culture. Since its establishment, Starlight has been organizing annual Canadian productions, promotional activities such as workshops, and educational related activities in order to promote Cantonese Opera."
+    },
+    "Hightlights":
+    {
+        "highlight1":
+        {
+            "title": "Theatre Productions",
+            "item1": "Studio Theatre shows",
+            "item2": "Annual Performance"
+        },
+        "highlight2":
+        {
+            "title": "Training Classes",
+            "item1": "Adult (Individual/Group Class)",
+            "item2": "Starlets"
+        },
+        "highlight3":
+        {
+            "title": "Community Services",
+            "item1": "Senior Home ",
+            "item2": "Workshops for the general public",
+            "item3": "Charity/Donation event performance"
+        },
+        "highlight4":
+        {
+            "title": "Collections",
+            "item1": "Costumes",
+            "item2": "Head pieces",
+            "item3": "Stage Props"
+        }
     },
     "ContactUs":
     {
@@ -44,25 +108,130 @@
         "SupportUs": "Support Us",
         "Contact": "Contact",
         "SupportText": "As a non-profit organization dedicated to introducing traditional Chinese opera to the new generation and the public in Canada, we are reaching out to request your generous sponsorship. Chinese opera holds a significant place in Chinese culture with its rich history and profound artistic heritage. Our goal is to preserve and promote this valuable cultural legacy through performances, educational activities, and community projects. Your sponsorship will directly contribute to expanding our outreach, allowing more Canadians to experience and appreciate this unique and wonderful cultural art form. Thank you for your generous support!",
-        "Method-1": "Method 1:",
-        "Method-1-Title": "E-transfer",
+        "Method-1": "Method 1: E-transfer",
         "Method-1-Step1":"1. Login to your online or mobile banking app.",
         "Method-1-Step2":"2. Enter \"info@starlightopera.com\" as recipient's email address.",
         "Method-1-Step3":"3. Enter the amount.",
-        "Method-2": "Method 2:",
-        "Method-2-Title": "PayPal",
+        "Method-2": "Method 2: PayPal",
         "Method-2-Step1":"1. Login to Paypal and go to \"Send and Request\".",
         "Method-2-Step2":"2. Enter \"info@starlightopera.com\" as recipient's email address and click \"Next\".",
         "Method-2-Step3":"3. Enter the amount and choose the payment type, and click \"Continue\".",
-        "Method-2-Step4":"4. Review the information and click \"Send Payment Now\"."
+        "Method-2-Step4":"4. Review the information and click \"Send Payment Now\".",
+        "SupportNow": "Support Now!"
+    },
+    "News":
+    {
+        "news1":
+        {
+            "title": "Scarborough Town Centre Lunar New Year festivities",
+            "date": "Feb 3, 2024 - Feb 4, 2024"
+        },
+        "news2":
+        {
+            "title": "York University Annual Chinese Culture Day 2024",
+            "date": "Feb 15, 2024"
+        },
+        "news3":
+        {
+            "title": "Mon Sheong Foundation Service Performance",
+            "date": "Feb 19, 2024"
+        },
+        "news4":
+        {
+            "title": "The Art of FAREWELL MY CONCUBINE",
+            "date": "May 11, 2024"
+
+        },
+        "news5":
+        {
+            "title": "22nd Markham Scouts - Chinese Opera Workshop",
+            "date": "May 31, 2024"
+        },
+        "news6":
+        {
+            "title": "Canadian Comparative Literature Association Annual Conference 2024",
+             "date": "Jun 15, 2024"
+        },
+        "news7":
+        {
+            "title": "Little Starlets Shine with Starlight 2024",
+             "date": "Jul 21, 2024"
+        }
+    },
+    "Events":
+    {
+        "event1":
+        {
+            "date": "Feb 3, 2024 (Sat) - Feb 4, 2024 (Sun)",
+            "venue": "Centre Court, Scarborough Town Centre",
+            "time": "2:00 PM - 3:00 PM",
+            "ticket":""
+        },
+        "event2":
+        {
+            "date": "Feb 15, 2024 (Thu)",
+            "venue": "Founders Assembly Hall (FC 152), York University",
+            "time": "11:00 AM - 2:30 PM",
+            "ticket":""
+
+        },
+        "event3":
+        {
+            "date": "Feb 19, 2024 (Mon)",
+            "venue": "",
+            "time": "2:00PM",
+            "ticket":""
+        },
+        "event4":
+        {
+            "date": "May 11, 2024 (Sat)",
+            "venue": "Innis Town Hall (Innis College, 2 Sussex Ave, Toronto, ON M5S 1J5)",
+            "time": "2:30 PM (The performance will last for about an hour)",
+            "ticket":"Free Seating (Kindly note that you are requested to arrive at the venue 15 minutes before the performance for check-in and registration confirmation)"
+        },
+        "event5":
+        {
+            "date": "May 31, 2024 (Fri)",
+            "venue": "Pierre Elliott Trudeau High School, 90 Bur Oak Ave, Markham, ON L6C 2E6",
+            "time": "",
+            "ticket": ""
+        },
+        "event6":
+        {
+             "date": "Jun 15, 2024 (Sat)",
+             "venue": "Room C-3061, at the Carrefour des arts et des sciences, Faculté des arts et des sciences, Pavillon Lionel-Groulx at 3150, rue Jean-Brillant, Montréal",
+             "time": "3:30 PM - 5:00 PM",
+             "ticket": ""
+        },
+        "event7":
+        {
+             "date": "Jul 21, 2024",
+             "venue": " Flato Markham Theatre (171 Town Centre Blvd, Markham, ON L3R 8G5)",
+             "time": "1:30 PM - 4:00 PM",
+             "ticket": "VIP: $100   General: $60"
+        },
+        "BuyTickets-prefix":"Purchase tickets through",
+        "BuyTickets-suffix":""
     },
     "Footer":
     {
         "ContactUs": "Contact Us",
         "Copyright-prefix": "Copyright© ",
         "Copyright-suffix": " Starlight Chinese Opera Performing Arts Centre"
-        
     },
-    "General" :{ "ComingSoon" : "Coming Soon"
+    "Event":
+    {
+        "date": "Date",
+        "venue": "Venue",
+        "time": "Time",
+        "ticket": "Ticket Price"
+    },
+    
+    "General" :{
+        "Error": "Sorry, we couldn't find this page.",
+         "ComingSoon" : "Coming Soon",
+         "LearnMore" : "Learn More",
+         "Back": "< Back",
+        "RelatedLink": "Related Link"
 }
 }

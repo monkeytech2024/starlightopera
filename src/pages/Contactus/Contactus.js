@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Fade, Divider, Stack, Grid,Typography} from "@mui/material";
+import {Button, Fade, Stack, Grid,Typography} from "@mui/material";
 import { useTranslation } from 'react-i18next';
 import Interac from "../../assets/images/ContactUs/Interac.png";
 import Paypal from "../../assets/images/ContactUs/Paypal.png";
@@ -10,30 +10,32 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 import Transition from '../../components/Transition/Transition';
-
+const handleClick = (dest) => {
+  window.open(dest);
+};
 function Contactus () 
 {
   const {t} = useTranslation();
   return (
     <Stack direction="row" sx={{justifyContent:"center", minHeight:"65vh", backgroundColor:"background.main"}}>
       <Fade in={true} timeout={2000}>
-      <Stack direction="column" height="100%" width={{lg:"75%", md:"95%", xs:"95%"}}>
+      <Stack direction="column" height="100%" width={{lg:"70%", md:"95%", xs:"95%"}}>
         <PageHeader weight={t("NavBar.ContactUs.length")}>{t("NavBar.ContactUs.title")}</PageHeader>
-        <Typography variant="h2" marginTop="5.5vh" fontSize={{lg:"2.3rem", md:"2.3rem", xs:"2rem"}} sx={{textDecoration:"underline", textUnderlineOffset:"1.25vh"}} >{t("ContactUs.Contact")}&nbsp;&nbsp;</Typography>
+        <Typography variant="h2" fontSize={{lg:"36px", md:"36px", xs:"24px"}} sx={{textDecoration:"underline", textUnderlineOffset:"1.25vh"}} >{t("ContactUs.Contact")}</Typography>
         <Grid container direction="row" >
           <Grid item lg={4.5} md={12} xs={12} minHeight={{lg:"35vw", md:"10vh", xs:"10vh"}} marginTop={5} >
             <Stack direction="column"  spacing={2} justifyContent="flex-start">
               <Stack direction="row" spacing={2}>
                 <LocalPhoneOutlinedIcon sx={{color: "primary.red"}} fontSize='medium'/>
-                <Typography variant="body1" fontSize={{lg:"1.2rem", md:"1.2rem", xs:"1rem"}}>+1 (647) 887 1393</Typography>
+                <Typography variant="body1" fontSize={{lg:"20px", md:"20px", xs:"18px"}}>+1 (647) 887 1393</Typography>
               </Stack>
               <Stack direction="row" spacing={2}>
                 <EmailOutlinedIcon sx={{color: "primary.red"}} fontSize='medium'/>
-                <Typography variant="body1" fontSize={{lg:"1.2rem", md:"1.2rem", xs:"1rem"}}>info@starlightopera.com</Typography>
+                <Typography variant="body1" fontSize={{lg:"20px", md:"20px", xs:"18px"}}>info@starlightopera.com</Typography>
               </Stack>
               <Stack direction="row" spacing={2}>
                 <LocationOnOutlinedIcon sx={{color: "primary.red"}} fontSize='medium'/>
-                <Typography variant="body1" fontSize={{lg:"1.2rem", md:"1.2rem", xs:"1rem"}}>Unit 40, 588 Edward Ave. Richmond Hill, L4C 9Y6</Typography>
+                <Typography variant="body1" fontSize={{lg:"20px", md:"20px", xs:"18px"}}>Unit 40, 588 Edward Ave. Richmond Hill, L4C 9Y6</Typography>
               </Stack>
             </Stack>
           </Grid>
@@ -43,48 +45,7 @@ function Contactus ()
             </Stack>
           </Grid>
         </Grid>   
-        <Typography variant="h2" fontSize={{lg:"2.3rem", md:"2.3rem", xs:"2rem"}} sx={{textDecoration:"underline", textUnderlineOffset:"1.25vh"}} >{t("ContactUs.SupportUs")}&nbsp;&nbsp;</Typography>
-        <Grid container direction={{lg:"row", md:"column-reverse", xs:"column-reverse"}} marginTop={5}>
-          <Grid item lg={6} md={12} xs={12} minHeight={{lg:"35vw", md:"40vh", xs:"75vh"}} >
-            <Stack direction="row"spacing={2}>
-              <Typography variant="body1" fontSize={{lg:"1.2rem", md:"1.2rem", xs:"1rem"}}>{t("ContactUs.SupportText")} </Typography>
-            </Stack>
-            <Stack direction="row" spacing={3} marginTop={5}>
-              <img width="100vh" height="100vh" alt="Interac" src={Interac}/>
-              <Stack direction="column" spacing={2}> 
-                <Stack direction="row"spacing={1}>
-                  <Typography variant="h1" fontSize={{lg:"1.3rem", md:"1.3rem", xs:"1.1rem"}}>{t("ContactUs.Method-1")}</Typography>
-                  <Typography variant="h1" fontSize={{lg:"1.3rem", md:"1.3rem", xs:"1.1rem"}}>{t("ContactUs.Method-1-Title")}</Typography>
-                </Stack>
-                <Stack direction="column" spacing={1}>
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-1-Step1")}</Typography>
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-1-Step2")}</Typography>  
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-1-Step3")}</Typography>
-                </Stack>
-              </Stack>
-            </Stack>
-            <Stack direction="row" spacing={3} marginTop={5}>
-              <img width="100vh" height="100vh" alt="Paypal" src={Paypal}/>
-              <Stack direction="column" spacing={2}> 
-                <Stack direction="row"spacing={1}>
-                  <Typography variant="h1" fontSize={{lg:"1.3rem", md:"1.3rem", xs:"1.1rem"}}>{t("ContactUs.Method-2")}</Typography>
-                  <Typography variant="h1" fontSize={{lg:"1.3rem", md:"1.3rem", xs:"1.1rem"}}>{t("ContactUs.Method-2-Title")}</Typography>
-                </Stack>
-                <Stack direction="column" spacing={1}>
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-2-Step1")}</Typography>
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-2-Step2")}</Typography>  
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-2-Step3")}</Typography>
-                  <Typography variant="body1" fontSize={{lg:"1.1rem", md:"1.1rem", xs:"0.9rem"}}>{t("ContactUs.Method-2-Step4")}</Typography>
-                </Stack>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid item lg={6} md={12} xs={12} minHeight={{lg:"30vw", md:"65vw", xs:"65vw"}}>
-            <Stack direction="row"  justifyContent={{lg:"flex=end", md:"center", xs:"center"}}>
-              <img width="95%" alt="Support Us" src={SupportUsImg}/>
-            </Stack>
-          </Grid>
-        </Grid>
+       
       </Stack>
       </Fade>
   </Stack>
