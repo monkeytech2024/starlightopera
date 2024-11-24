@@ -4,7 +4,7 @@
     "name": "Bios.AliceChan.name",
     "catergories":
     [
-      "Bios.Catergories.BD","Bios.Catergories.AD","Bios.Catergories.Instructor"
+      "Bios.Catergories.BD","Bios.Catergories.AD","Bios.Catergories.instructor"
     ],
     "description": "Bios.AliceChan.description",
     "thumbnail":"image/bios/AliceChan/thumbnail.jpg"

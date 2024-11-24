@@ -1,3 +1,7 @@
+#root {
+    white-space: pre-line;
+  }
+  
 .navv, .lang
 {
     font-family: "Noto Serif HK", serif;

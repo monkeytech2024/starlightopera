@@ -4,7 +4,7 @@
     "name": "Bios.WilliamLi.name",
     "catergories":
     [
-      "Bios.Catergories.Instructor"
+      "Bios.Catergories.instructor"
     ],
     "description": "Bios.WilliamLi.description",
     "thumbnail":"image/bios/WilliamLi/thumbnail.jpg"
@@ -14,7 +14,7 @@
     "name": "Bios.HeidiHui.name",
     "catergories":
     [
-      "Bios.Catergories.Instructor"
+      "Bios.Catergories.instructor"
     ],
     "description": "Bios.HeidiHui.description",
     "thumbnail":"image/bios/HeidiHui/thumbnail.jpg"
@@ -24,7 +24,7 @@
     "name": "Bios.KamWingSoong.name",
     "catergories":
     [
-      "Bios.Catergories.Instructor"
+      "Bios.Catergories.instructor"
     ],
     "description": "Bios.KamWingSoong.description",
     "thumbnail":"image/bios/KamWingSoong/thumbnail.jpg"
