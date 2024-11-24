@@ -1,0 +1,53 @@
+[
+  
+  {
+    "id":"KarSingLam",
+    "name": "Bios.LamKarSing.name",
+    "catergories":
+    [
+      "Bios.Catergories.AD"
+    ],
+    "description": "Bios.LamKarSing.description",
+    "thumbnail":"image/bios/KarSingLam/thumbnail.jpg"
+  },
+  {
+    "id":"GuoxuanRuan",
+    "name": "Bios.GuoxuanRuan.name",
+    "catergories":
+    [
+      "Bios.Catergories.AD"
+    ],
+    "description": "Bios.GuoxuanRuan.description",
+    "thumbnail":"image/bios/GuoxuanRuan/thumbnail.jpg"
+  },
+  {
+    "id":"YanyanZhang",
+    "name": "Bios.YanyanZhang.name",
+    "catergories":
+    [
+      "Bios.Catergories.AD"
+    ],
+    "description": "Bios.YanyanZhang.description",
+    "thumbnail":"image/bios/YanyanZhang/thumbnail.jpg"
+  },
+  {
+    "id":"MayYuen",
+    "name": "Bios.MayYuen.name",
+    "catergories":
+    [
+      "Bios.Catergories.AD"
+    ],
+    "description": "Bios.MayYuen.description",
+    "thumbnail":"image/bios/MayYuen/thumbnail.jpg"
+  },
+  {
+    "id":"ZhifengHu",
+    "name": "Bios.ZhifengHu.name",
+    "catergories":
+    [
+      "Bios.Catergories.AD"
+    ],
+    "description": "Bios.ZhifengHu.description",
+    "thumbnail":"image/bios/ZhifengHu/thumbnail.jpg"
+  }
+]

@@ -19,6 +19,7 @@ import Error from "./pages/Error/Error";
 import Activity from "./pages/Activity/Activity"
 import Theatre from './pages/Theatre/Theatre';
 import Training from './pages/Training/Training';
+import Bios from './pages/Bios/Bios';
 import CommunityService from './pages/CommunityService/CommunityService';
 import { Navigate } from "react-router-dom";
 import './App.css';
@@ -90,6 +91,7 @@ function App()
         <Route exact path="/communityService" element={<CommunityService/>}></Route>
         <Route exact path="/error" element={<Error/>}></Route>
         <Route exact path="/event/:id" element={<Activity/>}></Route>
+        <Route exact path="/bios/:id" element={<Bios/>}></Route>
         <Route path="*" element={<Navigate to="/error" />} />
 
         </Routes>

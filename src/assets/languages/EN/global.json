@@ -44,7 +44,7 @@
         "Error":
         {
             "title": "404 Not Found",
-            "length": 8
+            "length": 13
         },
         "Intro":
         {
@@ -61,10 +61,35 @@
             "title": "Training Classes",
             "length": 11
         },
+        "Starlight":
+        {
+            "title": "Starlight Chinese Opera",
+            "length": 21
+        },
         "CommunityService":
         {
             "title": "Community Services",
             "length": 12
+        },
+        "President":
+        {
+            "title": "President",
+            "length": 100
+        },
+        "AD":
+        {
+            "title": "Artistic Director/Honorary Advisor",
+            "length": 100
+        },
+        "BD":
+        {
+            "title": "Board of Directors",
+            "length": 100
+        },
+        "Instructor":
+        {
+            "title": "Instructor",
+            "length": 100
         },
         "language-zh" : "繁體中文",
         "language-en" : "ENG"
@@ -213,6 +238,75 @@
         "BuyTickets-prefix":"Purchase tickets through",
         "BuyTickets-suffix":""
     },
+    "Bios":
+    {
+        "Catergories":
+        {
+            "AD":"Artistic Director/Honorary Advisor",
+            "BD":"Board of Directors",
+            "instructor":"Instructor"
+        },
+
+        "LamKarSing":
+        {
+            "name": "Kar Sing Lam",
+            "description":"Lam Kar-sing, originally named Lam Man-shun, was born in Hong Kong on 18 January 1933, his place of origin is Dongguan, Guangdong province. He moved to Guangdong province. He moved to Guangzhou with his father when the Japanese occupied Hong Kong in 1941. He studied Cantonese Opera with Dengxiao Lanfang from 1944, and made his debut at the age of 11. His talent was soon recognised by the renowned Cantonese Opera actor Sit Kok-sin, who accepted him as a disciple in 1949. Lam was active in learning, and he learnt the skills of northern Chinese stage martial arts, Chinese martial arts, percussion, Cantonese singing method and Peking Opera singing from various masters besides Dengxiao Lanfang and Sit Kok-sin.\n\nLam actively performed in over 30 Cantonese Opera troupes. In 1962, he played the role of Wen wu sheng, the male lead in the Hing Sun Sing Troupe. In 1966, Lam founded Tsung Sun Sing Troupe, which made important contributions to the art form at the time. Over 50 years of his life as an actor, Lam premiered over 45 Cantonese Opera repertoires, including Battling Sound, The Pitiless Sword, Romance and Hatred, Death of a Loyal Warrior, Lin Chong, Wu Song, Jade Disk, Zhou Yu, Romantic Junrui and Clever Hongniang. Most of them have become classics of Cantonese Opera. Besides, Lam has produced 32 Cantonese Operatic singing albums, and new recordings will be continuously released for followers' study.\n\nCantonese Opera experienced its low-tide in 1975. After serious consideration, Lam produced a series of 26 Cantonese Opera performances with Rediffusion Television, despite public criticism. He aimed at promoting Cantonese Opera to households through the television media. The strategy was successful and the setup of a double-show system in the Cantonese Opera industry made it survive in the metropolitan Hong Kong.\n\nIn 1993, Lam retired from the stage of Cantonese Opera after a 33-day performance in Sunbeam Theatre with Tsung Sun Sing Troupe. However, Lam was still enthusiastic over research on Cantonese Opera singing methodology. He successfully coped with health problems and worked hard on enhancing his singing skill. Today, Lam devotes his time to nurturing young artists, to supporting charities, and to working on the preservation of Cantonese Opera.\n\nLam is highly praised for his remarkable artistic skills and had a huge number of followers for over decades. On 30 October 2009, Lam was invited by the Hong Kong Special Administrative Region Government to sing at Hong Kong Coliseum as a special guest in the Cantonese Operatic Songs Gala Concert by Cantonese Opera Masters from Guangdong, Hong Kong and Macao in Celebration of the 60th Anniversary of the Founding of the People's Republic of China. All tickets were sold out within 1 hour after they were put on sale, which broke the ticket-selling record of activities held by the Leisure and Cultural Services Department.\n\nLam's contribution to the world of Cantonese Opera is widely recognized. In 1981, he was awarded a meritorious title by the British-Hong Kong Government for his contributions to the art of Chinese Traditional Theatre. In 1999, Lam was conferred the Honorary Fellowship by the Hong Kong Academy for Performing Arts in recognition of his status in Cantonese Opera. In 2000, he was awarded the Xiqu Life Achievement Award by the Hong Kong Arts Development Council. In 2005, he was awarded the Bronze Bauhinia Star by the Hong Kong Special Administrative Region Government. In 2006, Lam was invited by the Tourism Commission, the Hong Kong Tourism Board, Leisure and Cultural Services Department and Hong Kong Film Awards Association to leave his hand imprint on the Avenue of Stars, which is a commendation to the distinguished individuals in the performing arts business. In 2010, Lam was awarded the Life Achievement Award by the Chinese Operas Performance Academy Award. And he was the first artist from the Hong Kong Cantonese Opera field being awarded this honour. In 2010, Lam was conferred the Honorary Doctorates by the Hong Kong Academy for Performing Arts. (source from program book of The Hong Kong Academy for Performing Arts (HKAPA) Honorary Awards Ceremony)"
+        },
+        "GuoxuanRuan":
+        {
+            "name": "Guoxuan Ruan",
+            "description":"Ruan Guoxuan was born in Taishan, Guangdong. From a young age, he had a passion for music, drama, calligraphy, and painting. While in school, he frequently participated in cultural performances, performing modern model operas and serving as a conductor for the orchestra.\n\nAfter graduating from high school in 1977, he joined the \"Yuexiu Folk Art Troupe\" and the \"Shunde Guangdong Opera Troupe\" in Guangzhou, where he worked as a percussionist. In 1985, he was appointed as the conductor for the \"Guangzhou Yangcheng Cantonese Opera Troupe.\"\n\nAfter immigrating to Canada in 1992, he served as a conductor for several cultural and entertainment groups in Toronto. In 1996, he received the Outstanding Achievement Award from the Lieutenant Governor of Ontario on Canada Day.\n\nIn 2002, he founded the Guoxuan Elegant Gathering \"Cantonese Opera and Folk Arts Society\" in Toronto. He has been invited numerous times to lead percussion in Cantonese opera performances in the United States, Canada, Hong Kong, and China, engaging in artistic exchanges with the folk arts community in various regions.\n\nIn addition to his interests in music and drama, he also developed a strong passion for calligraphy and painting, pursuing his artistic ideals. In 2008, he published a collection of his calligraphy works."
+        },
+        "MarianneWong":
+        {
+            "name": "Marianne Wong",
+            "description":"Cantonese Opera Artistic Performer\nFounder and President of Starlight Cantonese Opera;\nPresident of Scarborough Senior Chinese Dramatic Association 2005-2007;\nMember of Canada (KW) Music & Arts Center\n\nMarianne receives her artistic training from Master Lam Kar Sing, Master Mak Sin Sing, Master Sung Kam Wing, Master Hu Zi-Feng, Master Zhang Yan Yan, Master Huang Yu- Ching, and Master Hu Wah-Chi.\n\nSince 1993, she has been actively participating in Cantonese Opera performances such as the annual shows organized by Canada (KW) Music and Arts Centre, Yi Sheng Cantonese Opera Association; Scarborough Senior Chinese Dramatic Association, and other fund raising events by different organizations.\n\nWith the passion she has in the Opera, in 2000, she established her own troupe the \"Starlight Cantonese Opera\". At the anniversary year of 2001, she staged her premiere full opera show \"Kidnapping the Wrong Bride\", and thereafter in 2003 \"The Male and Female Marshall\", 2004 \"The Love Defies the Merciless Sword\", 2005 \"Love Versus Piety\" , 2007 \"The Butterfly Lovers\", 2009 \"The Musketeer at the Palace\" & 2010 \"War and Never Ending Love\". For the first 2 performances she played the female role of Fa Dan and Wu Dan. From 2004 and thereafter she played the male role as San. In her artistic road of performances, she has fulfilled her dream of acting with different presentation.\n\nStarlight Chinese Opera\npart from performances for her owe troupe, she had actively participated in community events such as performing at the Harbour Front Centre's \"The Rhythm of the World\"; at Royal Ontario Museum for Chinese New Year Festival; at the Chinese New Year Celebration at the Markham Civic Center; Mississuaga Arts Festival; Chinese Cultural Centre of the Greater Toronto; Canada's Year of Asia Pacific 1997 at the John Bassett Theatre; Yee Hong Center for Geriatric Care; Mon Sheong Geriatric Care Centre; Tendercare Centre, Scarborough Town Centre; China Town Centre. She also participated in the \"The White Snake Legend\" organized by the Chinese Opera Group;"
+        },
+        "YanyanZhang":
+        {
+            "name": "Yan-yan Zhang",
+            "description":"Madam Zhang Yan-Yan was a principal actress at the China National Peking Opera Theatre before 1990. She started her training in Peking opera and Qunqu Opera arts, music, and dancing at the National Academy of Chinese Opera when she was nine years old. After nine years of intensive training, she specialized as a performer in the roles of Hua Dan (young lady), Daoma Dan (military lady), and Qing Yi (Virtuous lady). With remarkable Chinese Opera artistic skills in singing, enunciation, acting, martial arts, and dancing, she excelled in her performances.\n\nShe was recruited to be a leading actress at the China National Peking Opera Theatre, where she had the honor of performing with several Peking Opera masters and renowned colleagues. She also toured performances in many countries around North America, Europe, and South-East Asia, receiving high praise from overseas audiences. In the United States, she was granted an Honorary Deputy Sheriff and Honorary Citizens for her talents and excellent performance. In Japan, she received several honorary awards from the Japanese Cultural Societies. She was also invited to appear in several Chinese movies and television series.\n\nIn 1990, Madam Zhang immigrated to Toronto, Canada, where she was immediately recognized by the local Artists Associations. She was invited by the Department of South-East Asia Arts at the University of Toronto to be a research fellow and to provide key lectures in Peking Opera. She also wrote articles addressing Chinese traditional arts and Peking Opera and performed for the Canadian Multicultural and Spring Festivals. Additionally, she appeared on an overseas Peking Opera show for the CCTV (Chinese Central Television) in 1997.\n\nMadam Zhang contributed extensively to the Chinese Opera Communities in Toronto, focusing on educating local Cantonese Opera artists and merging Peking Opera skills with the local Cantonese Opera community. She established local Opera training classes and trained many popular Cantonese opera artists.\n\nIn recent years, she has established the Canada Chinese Opera Arts Center and has been working on promoting opera."
+        },
+        "MayYuen":
+        {
+            "name": "May Yuen",
+            "description":"Yuen May is a renowned lyricist for Cantonese period songs and Cantonese opera, and a member of the Hong Kong Composers and Authors Society. She began writing lyrics for Cantonese period songs in the 1970s, collaborating with popular singers of the time, and many of her works received gold records. Later, she shifted her focus to Cantonese opera and drama, working with numerous famous performers, and her works were widely appreciated.\n\nTwo of her pieces won the \"CASH Golden Sail Music Awards\" in 1994 and 2002, respectively, awarded by the Composers and Authors Society of Hong Kong Limited.\n\nFrom 1985 to 1995, she hosted several programs on RTHK Radio 5, offering unique insights into the history, characters, and culture behind the songs, which were well-received by listeners.\n\nIn 1996, she emigrated to Toronto. While enjoying her later years, she remained passionate about Cantonese opera and music. She often wrote operatic works for her peers and friends to perform. Inspired by the Holy Spirit, she also began writing gospel-themed Cantonese opera pieces, becoming a vessel used by the Lord. In 2008, she was invited to host \"The Life of Opera\" on Canadian Chinese Radio, which was highly praised by opera fans. In 2012, she was invited to become the artistic advisor for the Starlight Chinese Opera Performing Arts Centre, where she wrote new lyrics and children's Cantonese opera scripts with positive themes, tailored to the language abilities and levels of overseas-born Chinese. She has tirelessly promoted and spread the art of Cantonese opera overseas."
+        },
+        "SusanLau":
+        {
+            "name": "Susan Lau",
+            "description":"Cantonese Opera Artistic Performer\nDirector of Starlight Chinese Opera Performing Arts Centre\n\nSusan Lau received her artistic training from Master Hu Zi-Feng and William Li. Her performances are graceful, and his singing style is elegant. She is an outstanding Cantonese opera performer in recent years. Currently, she serves as a board member of the Starlight Cantonese Opera Performing Arts Centre, contributing to the promotion of opera."
+        },
+        "WilliamLi":
+        {
+            "name": "William Li",
+            "description":"A renowned yangqin (hammered dulcimer) musician, Li previously served as a resident musician with the Hong Kong Chinese Orchestra. During the same period, he also performed as an accompanist for large Cantonese opera troupes such as Chung Sun Sing Opera Troupe, Lai Kun Opera Troupe and Ming Chee Sing Opera Troupe.\n\nSince 2012, he has been the vocal instructor and artistic advisor at the Starlight Chinese Opera Performing Arts Centre. "
+        },
+        "HeidiHui":
+        {
+            "name": "Heidi Hui",
+            "description":"Heidi Hui specialized in the \"dan\" role (female role) and graduated from the Hong Kong Academy for Performing Arts (HKAPA). During her time at the academy, she studied under teachers such as Ng Lut-kwong, Hui Kin-shun, Dung Wo-ping, Liu Xun, and Zheng Wenying. She later continued her studies in Peking and Kunqu opera movements under the guidance of teacher Xing Jinsha, mastering the graceful movements of these styles. Currently, Heidi is an instructor at the Starlight Cantonese Opera Performing Arts Centre."
+        },
+        "ZhifengHu":
+        {
+            "name": "Zhifeng Hu",
+            "description":"Hu Zhifeng, who was born in Shanghai in 1938, attained the prestigious title of National First Class Performer in her motherland. Ms Hu is a mentor in the master’s degree programme of the Graduate School of the Chinese National Academy of Arts and the Honorary President of the Chinese Society for Theatre Performance, as well as being a member of the 7th to 10th Chinese People’s Political Consultative Conference National Committees.\n\nAfter graduating from Shanghai Nanyang Model High School in 1956, Ms Hu entered the Department of Engineering Physics at Tsinghua University, Beijing in the same year. A student of Peking opera and Kunqu opera since the age of ten, she received Peking opera training from Wei Lianfang, Yang Wannong, Bao Youdie, Wu Jilan, Xue Lanfen, Yang Xiaopei, Liu Junlin and Wang Fuqing; and Kunqu opera training from Fang Chuanyun and Zhu Chuanming. In 1959, she was apprenticed to Mei Lanfang, he renowned master of Peking opera.\n\nIn 1959, with the approval of Tsinghua University, Ms Hu devoted herself fully to Peking opera. In 1960 she was recruited as the Leading Actress of the Suzhou Peking Opera Troupe and in 1980 she was appointed its leader and director. She adapted, directed and performed a number of famous works from the repertoire including Li Huiniang, blending innovation with traditional practice. In 1981, the movie version of Li Huiniang adapted and performed by Ms Hu was named Best Movie Drama by the Ministry of Culture.\n\nBetween 1985 and 1987, Ms Hu furthered her studies in the theory and technique of Chinese opera performance at the Chinese National Academy of Arts, where, after graduation, she continued working as researcher, lecturer and opera director. Ms Hu’s publications include five books on the theory of Chinese opera performance, Sailing at the Arts Sea, Hu Zhifeng on the Arts, Creation of Opera Actor’s Role and Theory, Creation of Opera Arts and The Law of Artistic Creation of Opera Stage Art, as well as essays, commentaries and adaptations of a number of Chinese opera classics.\n\nMs Hu has been invited to give lectures at many higher education institutions in Hong Kong and the Mainland, including Tsinghua University, Peking University and Jiaotong University. Overseas, she has lectured at the National University of Singapore and the University of Minnesota, as well as in Denmark at the University of Copenhagen and Aarhus University.\n\nTwelve leading performers who were her students have been awarded the prestigious Plum Blossom Prize, the national award for excellent performers in Chinese theatre.\n\nMs Hu has been the visiting artist of the Chinese Traditional Theatre programme of the Hong Kong Academy for Performing Arts since 2000, teaching body movements, foundation work, repertoire studies and performance practice. An acclaimed teacher, Ms Hu has both shared with local artists the accumulated knowledge of her many years of experience and directed productions for well-known Cantonese opera performers and graduates of the Academy."
+        },
+        "AliceChan":
+        {
+            "name": "Alice Chan",
+            "description":"Alice Chan graduated graduate of the Hong Kong Academy for Performing Arts, majored in Cantonese Opera. She studied under various esteemed teachers, including Sung Kam Wing, Lam Kar Sing, Cheung Yan-yan, Wu Wah Chi, Lau Shun, Wu Zhi Feng, Law Pun Chiu, Pei Yan Ling, Hui Kin Shun, and Dong Heping, gaining extensive knowledge across a wide range of Chinese opera disciplines.\n\nIn 2012, she became a director and instructor at the Starlight Chinese Opera Performing Arts centre, responsible for teaching Cantonese opera body movements, coordinating performances, and managing administrative tasks related to promotion. Starting in 2023, she took on the role of Chairperson of the center, dedicating herself to planning more diverse and creative productions.\n\nIn 2010, she founded Starlets (a children and youth Cantonese opera group), providing systematic training for young Cantonese opera enthusiasts, with notable progress over time. In addition, Chan has organized a variety of Cantonese opera-related activities. Key projects include the lecture \"The Beauty of Chinese Opera\" by Peking opera Master Hu Zhi-feng, \"Hong Kong’s Cantonese Opera VIRTUOSITY AND INNOVATION\" by Dr. Lam Kar Sing, \"Cantonese Opera: Development and Heritage by Dr. Fredric Mao, \"What Cantonese Opera Accompaniment: Is Not: In Comparison with Classical Music\" by Dr. Siu Leung Li, \"Mix the Spurious with the Genuine: An Introduction to Xiqu (Chinese Opera) Performance\" by Dr. Chak Lui Chan, the 2016 production of \"Hong Kong Cultural Expo - The Monkey King\" in collaboration with The Youth Academy Cantonese Opera Troupe, the 2017 coordination of performances of \"The Eight Immortals Cross the Sea\" excerpts by students from the Hong Kong Academy for Performing Arts and Starlets at the official dinner celebrating the 20th anniversary of Hong Kong's handover, the 2018 production of \"The Showcase of Hong Kong Young Cantonese Opera Talents\", and a 2024 collaboration with the University of Toronto for a studio theatre production of \"The Art of Farewell My Concubine\".\n\nThrough various outreach activities, Alice hopes to promote the art of Chinese opera on different levels throughout Canada."
+        },
+        "KamWingSoong":
+        {
+            "name": "Kam Wing Soong",
+            "description": "Mr. Soong was born in China in 1939 and became a new immigrant to Toronto in 1992. Mr. Soong is a musical artist and was taught by his father to play traditional Chinese instruments from a very young age. These instruments are primarily used in music associated with the art of Chinese Opera. His remarkable talents have led him to become one of the most well-known Chinese musicians in the field.\n\nPassionate about the Chinese musical arts and his new home country, Mr. Soong has the goal of preserving the art and expanding its practices within the Chinese community in the Greater Toronto Area. In 1992, he opened a school in Markham to teach Chinese opera and its related performances, and has been teaching ever since. His educational center and spectacular reputation continue to grow not only in Markham, but also in areas as far as those in China.\n\nBesides teaching and putting on shows in the community, Mr. Soong has unconditionally helped raise a tremendous amount of money for a variety of worthwhile associations and charitable organizations. These include the Yee Hong Seniors Centre, the Support Enhance Access Services Centre, and Tsunami relief charities, just to name a few.\n\nMr. Soong has come a long way since his immigration to Canada. It is undeniable that while bringing along his learned expertise in Chinese opera, he has effectively and wholeheartedly used his talents to bring about development and maintenance of the Chinese cultural arts in the Canadian community. He has also used his talents to contribute to many charitable and worthy causes. Mr. Soong's undying dedication to the Chinese musical arts and his community therefore makes him the perfect candidate for the Mayor's Seniors Hall of Fame Award 2006."
+        },
+        "title":"Starlight Chinese Opera",
+        "intro-1":"Starlight Troupe (formerly the Starlight Chinese Performing Arts Centre) was founded by Marianne Wong in 2001. The troupe has always maintained a rigorous and serious approach to its performances, aiming to promote and preserve the art of Cantonese opera in Canada. The troupe is honoured to have invited Dr. Lam Kar-Sing, Master Sung Kam-Wing, Ms. Zhang Yan-yan, and Ms. Wong Yuk-Ching as artistic directors; Professor Wu Zhi-Feng, Ms. Leung Sau-Lin, Mr. Cheng Chung-Chau, and Mr. Wong Wai-Choi as honorary advisors, which has led to continuous improvement in the quality of performances.",
+        "intro-2":"Since its inception, the troupe has selected seven of Mr. Lam Kar Sing's famous operas for annual showcase performances, which have been widely supported by audiences in Toronto.\nOn April 18, 2012, the Starlight Chinese Performing Arts Centre was officially established as a non-profit organization, with  Marianne Wong and Alice Chan serving as directors. Later, they were honoured to invite Ms. Susan Lau to join the board, participating in opera promotion activities together.\n\nTo enhance the quality of opera performances in Toronto and expand the audience base, the center has organized various opera promotion projects and theatrical performances.\n\nKey events include the \"Body Movement Workshop with Master Wong Yuk Ching, Former Vice Director of the China National Peking Opera Troupe,\" \"The Beauty of Opera\" lecture by Peking opera artist Professor Wu Zhi Feng, \"Cantonese Opera Starlets Training Programme\" Dr. Lam Kar Sing’s 2013 lecture on \"Broad, Refined, Profound, and New,\" the 2016 Hong Kong Cultural Expo’s grand Cantonese opera *Three Attacks on the White Bone Demon*, the 2017 celebration of Hong Kong's return with the performance of *The Eight Immortals Cross the Sea*, and the 2018 Hong Kong Youth Cantonese Opera Showcase at the Hong Kong Cultural Expo, among others. Through various channels, the center aims to promote opera and broaden its audience base in Canada.",
+        "readmore":"Read More"
+    },
     "Footer":
     {
         "ContactUs": "Contact Us",
@@ -227,11 +321,12 @@
         "ticket": "Ticket Price"
     },
     
-    "General" :{
+    "General" :
+    {
         "Error": "Sorry, we couldn't find this page.",
          "ComingSoon" : "Coming Soon",
          "LearnMore" : "Learn More",
          "Back": "< Back",
         "RelatedLink": "Related Link"
-}
+    }
 }

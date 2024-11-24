@@ -1,0 +1,32 @@
+[
+  {
+    "id":"WilliamLi",
+    "name": "Bios.WilliamLi.name",
+    "catergories":
+    [
+      "Bios.Catergories.Instructor"
+    ],
+    "description": "Bios.WilliamLi.description",
+    "thumbnail":"image/bios/WilliamLi/thumbnail.jpg"
+  },
+  {
+    "id":"HeidiHui",
+    "name": "Bios.HeidiHui.name",
+    "catergories":
+    [
+      "Bios.Catergories.Instructor"
+    ],
+    "description": "Bios.HeidiHui.description",
+    "thumbnail":"image/bios/HeidiHui/thumbnail.jpg"
+  },
+  {
+    "id":"KamWingSoong",
+    "name": "Bios.KamWingSoong.name",
+    "catergories":
+    [
+      "Bios.Catergories.Instructor"
+    ],
+    "description": "Bios.KamWingSoong.description",
+    "thumbnail":"image/bios/KamWingSoong/thumbnail.jpg"
+  }
+]

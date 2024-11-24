@@ -1,0 +1,12 @@
+[
+  {
+    "id":"AliceChan",
+    "name": "Bios.AliceChan.name",
+    "catergories":
+    [
+      "Bios.Catergories.BD","Bios.Catergories.AD","Bios.Catergories.Instructor"
+    ],
+    "description": "Bios.AliceChan.description",
+    "thumbnail":"image/bios/AliceChan/thumbnail.jpg"
+  }
+]

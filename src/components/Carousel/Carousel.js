@@ -29,11 +29,7 @@ const imageh = [
   {
     label: '/event/7',
     imgPath: MobileBanner1,
-  },
-  {
-    label: '/event/7',
-    imgPath: MobileBanner3,
-  },
+  }
 ];
 
 function SwipeableTextMobileStepper() {
